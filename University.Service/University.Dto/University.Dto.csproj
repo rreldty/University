@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{44B3B4A2-F81E-4BE8-9BB7-14525743D2FD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>University.Dto</RootNamespace>
+    <AssemblyName>University.Dto</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\DDLDto.cs" />
+    <Compile Include="Base\DWDto.cs" />
+    <Compile Include="Base\EntityDto.cs" />
+    <Compile Include="Base\Extension.cs" />
+    <Compile Include="Base\BaseDto.cs" />
+    <Compile Include="Base\JobSqlDto.cs" />
+    <Compile Include="Base\LicenseDto.cs" />
+    <Compile Include="Base\LookupDto.cs" />
+    <Compile Include="Base\LookupHeaderDto.cs" />
+    <Compile Include="Base\Mapper.cs" />
+    <Compile Include="Base\GeneralDto.cs" />
+    <Compile Include="Base\ParamDto.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Training\FakultasDto.cs" />
+    <Compile Include="Training\JurusanDto.cs" />
+    <Compile Include="Training\MataKuliahDto.cs" />
+    <Compile Include="Training\TESTDto.cs" />
+    <Compile Include="Training\VariabelDto.cs" />
+    <Compile Include="Zystem\ZQRTDto.cs" />
+    <Compile Include="Zystem\ZAPPDto.cs" />
+    <Compile Include="Zystem\ZAUTDto.cs" />
+    <Compile Include="Zystem\ZBUMDto.cs" />
+    <Compile Include="Zystem\ZLOGDto.cs" />
+    <Compile Include="Zystem\ZMNUDto.cs" />
+    <Compile Include="Zystem\ZPGMDto.cs" />
+    <Compile Include="Zystem\ZUG1Dto.cs" />
+    <Compile Include="Zystem\ZUG2Dto.cs" />
+    <Compile Include="Zystem\ZUSRDto.cs" />
+    <Compile Include="Zystem\ZVARDto.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="General\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

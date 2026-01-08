@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{001551E4-5245-415A-BE65-6B326512953E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>University.Dao</RootNamespace>
+    <AssemblyName>University.Dao</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.AnalysisServices.AdomdClient, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft.NET\ADOMD.NET\100\Microsoft.AnalysisServices.AdomdClient.dll</HintPath>
+    </Reference>
+    <Reference Include="MISStandarized">
+      <HintPath>..\..\..\AGLiS.Component\MISStandarized.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\AnalysisServiceDao.cs" />
+    <Compile Include="Base\AssemblyExtender.cs" />
+    <Compile Include="Base\BaseDDL.cs" />
+    <Compile Include="Base\BaseDW.cs" />
+    <Compile Include="Base\BaseLookUp.cs" />
+    <Compile Include="Base\BaseMethod.cs" />
+    <Compile Include="Base\BaseDao.cs" />
+    <Compile Include="Base\BaseTooltip.cs" />
+    <Compile Include="Base\Config.cs" />
+    <Compile Include="Base\EncryptionV2.cs" />
+    <Compile Include="Base\GeneralDao.cs" />
+    <Compile Include="Base\JobSqlDao.cs" />
+    <Compile Include="Base\ObjectFactory.cs" />
+    <Compile Include="Base\QueryDao.cs" />
+    <Compile Include="Base\SettingsHelper.cs" />
+    <Compile Include="Base\UploadDao.cs" />
+    <Compile Include="Connector\Document.cs" />
+    <Compile Include="Entity\DDLDao.cs" />
+    <Compile Include="Entity\DWDao.cs" />
+    <Compile Include="Entity\LookUpDao.cs" />
+    <Compile Include="Entity\ReportDao.cs" />
+    <Compile Include="Entity\TooltipDao.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Training\FakultasDao.cs" />
+    <Compile Include="Training\JurusanDao.cs" />
+    <Compile Include="Training\MataKuliahDao.cs" />
+    <Compile Include="Training\TESTDao.cs" />
+    <Compile Include="Training\VariabelDao.cs" />
+    <Compile Include="Zystem\ZAPPDao.cs" />
+    <Compile Include="Zystem\ZAUTDao.cs" />
+    <Compile Include="Zystem\ZBUMDao.cs" />
+    <Compile Include="Zystem\ZLOGDao.cs" />
+    <Compile Include="Zystem\ZMNUDao.cs" />
+    <Compile Include="Zystem\ZPGMDao.cs" />
+    <Compile Include="Zystem\ZQRTDao.cs" />
+    <Compile Include="Zystem\ZUG1Dao.cs" />
+    <Compile Include="Zystem\ZUG2Dao.cs" />
+    <Compile Include="Zystem\ZUSRDao.cs" />
+    <Compile Include="Zystem\ZVARDao.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\University.Dto\University.Dto.csproj">
+      <Project>{44b3b4a2-f81e-4be8-9bb7-14525743d2fd}</Project>
+      <Name>University.Dto</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="General\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

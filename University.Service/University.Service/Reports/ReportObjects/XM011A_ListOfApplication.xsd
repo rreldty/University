@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="XM011A_ListOfApplication" targetNamespace="http://tempuri.org/XM011A_ListOfApplication.xsd" xmlns:mstns="http://tempuri.org/XM011A_ListOfApplication.xsd" xmlns="http://tempuri.org/XM011A_ListOfApplication.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="XM011A_ListOfApplication" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="XM011A_ListOfApplication" msprop:Generator_UserDSName="XM011A_ListOfApplication">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtHeader" msprop:Generator_TableClassName="dtHeaderDataTable" msprop:Generator_RowEvArgName="dtHeaderRowChangeEvent" msprop:Generator_TableVarName="tabledtHeader" msprop:Generator_TablePropName="dtHeader" msprop:Generator_RowDeletingName="dtHeaderRowDeleting" msprop:Generator_RowChangingName="dtHeaderRowChanging" msprop:Generator_RowDeletedName="dtHeaderRowDeleted" msprop:Generator_RowEvHandlerName="dtHeaderRowChangeEventHandler" msprop:Generator_UserTableName="dtHeader" msprop:Generator_RowChangedName="dtHeaderRowChanged" msprop:Generator_RowClassName="dtHeaderRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ZCCONO" msprop:Generator_ColumnVarNameInTable="columnZCCONO" msprop:Generator_ColumnPropNameInRow="ZCCONO" msprop:Generator_ColumnPropNameInTable="ZCCONOColumn" msprop:Generator_UserColumnName="ZCCONO" type="xs:string" minOccurs="0" />
+              <xs:element name="ZBBRNA" msprop:Generator_ColumnVarNameInTable="columnZBBRNA" msprop:Generator_ColumnPropNameInRow="ZBBRNA" msprop:Generator_ColumnPropNameInTable="ZBBRNAColumn" msprop:Generator_UserColumnName="ZBBRNA" type="xs:string" minOccurs="0" />
+              <xs:element name="ZBADR1" msprop:Generator_ColumnVarNameInTable="columnZBADR1" msprop:Generator_ColumnPropNameInRow="ZBADR1" msprop:Generator_ColumnPropNameInTable="ZBADR1Column" msprop:Generator_UserColumnName="ZBADR1" type="xs:string" minOccurs="0" />
+              <xs:element name="ZBADR2" msprop:Generator_ColumnVarNameInTable="columnZBADR2" msprop:Generator_ColumnPropNameInRow="ZBADR2" msprop:Generator_ColumnPropNameInTable="ZBADR2Column" msprop:Generator_UserColumnName="ZBADR2" type="xs:string" minOccurs="0" />
+              <xs:element name="ZBADR3" msprop:Generator_ColumnVarNameInTable="columnZBADR3" msprop:Generator_ColumnPropNameInRow="ZBADR3" msprop:Generator_ColumnPropNameInTable="ZBADR3Column" msprop:Generator_UserColumnName="ZBADR3" type="xs:string" minOccurs="0" />
+              <xs:element name="ZBPHN1" msprop:Generator_ColumnVarNameInTable="columnZBPHN1" msprop:Generator_ColumnPropNameInRow="ZBPHN1" msprop:Generator_ColumnPropNameInTable="ZBPHN1Column" msprop:Generator_UserColumnName="ZBPHN1" type="xs:string" minOccurs="0" />
+              <xs:element name="ZBFAX1" msprop:Generator_ColumnVarNameInTable="columnZBFAX1" msprop:Generator_ColumnPropNameInRow="ZBFAX1" msprop:Generator_ColumnPropNameInTable="ZBFAX1Column" msprop:Generator_UserColumnName="ZBFAX1" type="xs:string" minOccurs="0" />
+              <xs:element name="ZAAPNOFr" msprop:Generator_ColumnVarNameInTable="columnZAAPNOFr" msprop:Generator_ColumnPropNameInRow="ZAAPNOFr" msprop:Generator_ColumnPropNameInTable="ZAAPNOFrColumn" msprop:Generator_UserColumnName="ZAAPNOFr" type="xs:string" minOccurs="0" />
+              <xs:element name="ZAAPNOTo" msprop:Generator_ColumnVarNameInTable="columnZAAPNOTo" msprop:Generator_ColumnPropNameInRow="ZAAPNOTo" msprop:Generator_ColumnPropNameInTable="ZAAPNOToColumn" msprop:Generator_UserColumnName="ZAAPNOTo" type="xs:string" minOccurs="0" />
+              <xs:element name="ZUUSNA" msprop:Generator_ColumnVarNameInTable="columnZUUSNA" msprop:Generator_ColumnPropNameInRow="ZUUSNA" msprop:Generator_ColumnPropNameInTable="ZUUSNAColumn" msprop:Generator_UserColumnName="ZUUSNA" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtDetail" msprop:Generator_TableClassName="dtDetailDataTable" msprop:Generator_RowEvArgName="dtDetailRowChangeEvent" msprop:Generator_TableVarName="tabledtDetail" msprop:Generator_TablePropName="dtDetail" msprop:Generator_RowDeletingName="dtDetailRowDeleting" msprop:Generator_RowChangingName="dtDetailRowChanging" msprop:Generator_RowDeletedName="dtDetailRowDeleted" msprop:Generator_RowEvHandlerName="dtDetailRowChangeEventHandler" msprop:Generator_UserTableName="dtDetail" msprop:Generator_RowChangedName="dtDetailRowChanged" msprop:Generator_RowClassName="dtDetailRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ZAAPNO" msprop:Generator_ColumnVarNameInTable="columnZAAPNO" msprop:Generator_ColumnPropNameInRow="ZAAPNO" msprop:Generator_ColumnPropNameInTable="ZAAPNOColumn" msprop:Generator_UserColumnName="ZAAPNO" type="xs:string" minOccurs="0" />
+              <xs:element name="ZAAPNA" msprop:Generator_ColumnVarNameInTable="columnZAAPNA" msprop:Generator_ColumnPropNameInRow="ZAAPNA" msprop:Generator_ColumnPropNameInTable="ZAAPNAColumn" msprop:Generator_UserColumnName="ZAAPNA" type="xs:string" minOccurs="0" />
+              <xs:element name="ZRVANA" msprop:Generator_ColumnVarNameInTable="columnZRVANA" msprop:Generator_ColumnPropNameInRow="ZRVANA" msprop:Generator_ColumnPropNameInTable="ZRVANAColumn" msprop:Generator_UserColumnName="ZRVANA" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

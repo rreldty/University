@@ -1,0 +1,42 @@
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Dto\obj\Debug\University.Dto.csproj.AssemblyReference.cache
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Dto\obj\Debug\University.Dto.csproj.CoreCompileInputs.cache
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Dto\bin\Debug\University.Dto.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Dto\bin\Debug\University.Dto.pdb
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Dto\obj\Debug\University.Dto.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Dto\obj\Debug\University.Dto.pdb
+C:\Project\Training\University.Service\University.Dto\obj\Debug\University.Dto.csproj.AssemblyReference.cache
+C:\Project\Training\University.Service\University.Dto\obj\Debug\University.Dto.csproj.CoreCompileInputs.cache
+C:\Project\Training\University.Service\University.Dto\obj\Debug\University.Dto.dll
+C:\Project\Training\University.Service\University.Dto\obj\Debug\University.Dto.pdb
+C:\Project\Training\University.Service\University.Dto\bin\Debug\University.Dto.dll
+C:\Project\Training\University.Service\University.Dto\bin\Debug\University.Dto.pdb
+C:\Training\University\University.Service\University.Dto\bin\Debug\University.Dto.dll
+C:\Training\University\University.Service\University.Dto\bin\Debug\University.Dto.pdb
+C:\Training\University\University.Service\University.Dto\obj\Debug\University.Dto.csproj.AssemblyReference.cache
+C:\Training\University\University.Service\University.Dto\obj\Debug\University.Dto.csproj.CoreCompileInputs.cache
+C:\Training\University\University.Service\University.Dto\obj\Debug\University.Dto.dll
+C:\Training\University\University.Service\University.Dto\obj\Debug\University.Dto.pdb
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Dto\bin\Debug\University.Dto.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Dto\bin\Debug\University.Dto.pdb
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Dto\obj\Debug\University.Dto.csproj.AssemblyReference.cache
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Dto\obj\Debug\University.Dto.csproj.CoreCompileInputs.cache
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Dto\obj\Debug\University.Dto.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Dto\obj\Debug\University.Dto.pdb
+C:\Users\cynty\Downloads\University\University\University.Service\University.Dto\bin\Debug\University.Dto.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Dto\bin\Debug\University.Dto.pdb
+C:\Users\cynty\Downloads\University\University\University.Service\University.Dto\obj\Debug\University.Dto.csproj.AssemblyReference.cache
+C:\Users\cynty\Downloads\University\University\University.Service\University.Dto\obj\Debug\University.Dto.csproj.CoreCompileInputs.cache
+C:\Users\cynty\Downloads\University\University\University.Service\University.Dto\obj\Debug\University.Dto.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Dto\obj\Debug\University.Dto.pdb
+C:\Personal\Work\University\University.Service\University.Dto\bin\Debug\University.Dto.dll
+C:\Personal\Work\University\University.Service\University.Dto\bin\Debug\University.Dto.pdb
+C:\Personal\Work\University\University.Service\University.Dto\obj\Debug\University.Dto.csproj.AssemblyReference.cache
+C:\Personal\Work\University\University.Service\University.Dto\obj\Debug\University.Dto.csproj.CoreCompileInputs.cache
+C:\Personal\Work\University\University.Service\University.Dto\obj\Debug\University.Dto.dll
+C:\Personal\Work\University\University.Service\University.Dto\obj\Debug\University.Dto.pdb
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Dto\bin\Debug\University.Dto.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Dto\bin\Debug\University.Dto.pdb
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Dto\obj\Debug\University.Dto.csproj.AssemblyReference.cache
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Dto\obj\Debug\University.Dto.csproj.CoreCompileInputs.cache
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Dto\obj\Debug\University.Dto.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Dto\obj\Debug\University.Dto.pdb

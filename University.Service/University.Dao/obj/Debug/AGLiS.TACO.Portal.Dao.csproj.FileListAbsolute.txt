@@ -1,0 +1,10 @@
+C:\Project\TACO\AGLiS.TACO.Portal\AGLiS.TACO.Portal.Service\AGLiS.TACO.Portal.Dao\bin\Debug\AGLiS.TACO.Portal.Dao.dll
+C:\Project\TACO\AGLiS.TACO.Portal\AGLiS.TACO.Portal.Service\AGLiS.TACO.Portal.Dao\bin\Debug\AGLiS.TACO.Portal.Dao.pdb
+C:\Project\TACO\AGLiS.TACO.Portal\AGLiS.TACO.Portal.Service\AGLiS.TACO.Portal.Dao\bin\Debug\AGLiS.TACO.Portal.Dto.dll
+C:\Project\TACO\AGLiS.TACO.Portal\AGLiS.TACO.Portal.Service\AGLiS.TACO.Portal.Dao\bin\Debug\Microsoft.AnalysisServices.AdomdClient.dll
+C:\Project\TACO\AGLiS.TACO.Portal\AGLiS.TACO.Portal.Service\AGLiS.TACO.Portal.Dao\bin\Debug\AGLiS.TACO.Portal.Dto.pdb
+C:\Project\TACO\AGLiS.TACO.Portal\AGLiS.TACO.Portal.Service\AGLiS.TACO.Portal.Dao\obj\Debug\AGLiS.TACO.Portal.Dao.csproj.AssemblyReference.cache
+C:\Project\TACO\AGLiS.TACO.Portal\AGLiS.TACO.Portal.Service\AGLiS.TACO.Portal.Dao\obj\Debug\AGLiS.TACO.Portal.Dao.csproj.CoreCompileInputs.cache
+C:\Project\TACO\AGLiS.TACO.Portal\AGLiS.TACO.Portal.Service\AGLiS.TACO.Portal.Dao\obj\Debug\AGLiS.TA.BDA998F9.Up2Date
+C:\Project\TACO\AGLiS.TACO.Portal\AGLiS.TACO.Portal.Service\AGLiS.TACO.Portal.Dao\obj\Debug\AGLiS.TACO.Portal.Dao.dll
+C:\Project\TACO\AGLiS.TACO.Portal\AGLiS.TACO.Portal.Service\AGLiS.TACO.Portal.Dao\obj\Debug\AGLiS.TACO.Portal.Dao.pdb

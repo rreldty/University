@@ -1,0 +1,1391 @@
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\SqlServerTypes\x64\msvcr120.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\SqlServerTypes\x86\msvcr120.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\csc.exe
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\csc.exe.config
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\csc.rsp
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\csi.exe
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\csi.exe.config
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\csi.rsp
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\System.AppContext.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\System.Collections.Immutable.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\System.Console.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\System.IO.Compression.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\System.IO.FileSystem.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\System.IO.Pipes.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\System.Reflection.Metadata.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\System.Security.AccessControl.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\System.Security.Claims.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\System.ValueTuple.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\System.Xml.XPath.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\vbc.exe
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\vbc.exe.config
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\vbc.rsp
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\VBCSCompiler.exe
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\roslyn\VBCSCompiler.exe.config
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\DotNetZip.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\EPPlus.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\Microsoft.Identity.Client.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\Microsoft.IdentityModel.Abstractions.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\Microsoft.IdentityModel.Logging.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\Microsoft.Owin.Cors.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\Microsoft.Owin.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\Microsoft.Owin.Security.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\Microsoft.PowerBI.Api.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\Microsoft.ReportViewer.Common.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\Microsoft.ReportViewer.DataVisualization.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\Microsoft.ReportViewer.Design.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\Microsoft.ReportViewer.WebDesign.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\Microsoft.SqlServer.Types.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\MultipartDataMediaFormatter.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\Newtonsoft.Json.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\OfficeOpenXml.Core.ExcelPackage.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\OfficeOpenXml.Extends.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\Owin.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\SendGrid.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\StarkbankEcdsa.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\System.Buffers.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\System.IO.Packaging.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\System.Memory.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\System.Net.Http.Formatting.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\System.Numerics.Vectors.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\System.Security.Cryptography.Cng.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\System.Web.Cors.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\System.Web.Http.Cors.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\System.Web.Http.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\System.Web.Http.WebHost.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\MISStandarized.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\Microsoft.AnalysisServices.AdomdClient.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\EnvDTE.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\Microsoft.ReportViewer.WinForms.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\stdole.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\Microsoft.MSXML.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\DotNetZip.pdb
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\DotNetZip.xml
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\EPPlus.xml
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\Microsoft.Identity.Client.xml
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\Microsoft.IdentityModel.Abstractions.xml
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\Microsoft.IdentityModel.Logging.xml
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\Microsoft.Owin.xml
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\Microsoft.Owin.Cors.xml
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\Microsoft.Owin.Security.xml
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\Newtonsoft.Json.xml
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\OfficeOpenXml.Core.ExcelPackage.pdb
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\SendGrid.pdb
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\SendGrid.xml
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\System.Buffers.xml
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\System.Memory.xml
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\System.Net.Http.Formatting.xml
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\System.Numerics.Vectors.xml
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\System.Security.Cryptography.Cng.xml
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\System.Web.Http.xml
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\System.Web.Http.Cors.xml
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\System.Web.Http.WebHost.xml
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\obj\Debug\University.Service.csproj.AssemblyReference.cache
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\obj\Debug\University.Service.csproj.CoreCompileInputs.cache
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\obj\Debug\Universi.71C5F8C8.Up2Date
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\University.Service.dll.config
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\University.Service.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\University.Service.pdb
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\University.Dao.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\University.Dto.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\University.Dao.pdb
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\bin\University.Dto.pdb
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\obj\Debug\University.Service.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Service\obj\Debug\University.Service.pdb
+C:\Project\Training\University.Service\University.Service\bin\SqlServerTypes\x64\msvcr120.dll
+C:\Project\Training\University.Service\University.Service\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Project\Training\University.Service\University.Service\bin\SqlServerTypes\x86\msvcr120.dll
+C:\Project\Training\University.Service\University.Service\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Project\Training\University.Service\University.Service\bin\University.Service.dll.config
+C:\Project\Training\University.Service\University.Service\bin\University.Service.dll
+C:\Project\Training\University.Service\University.Service\bin\University.Service.pdb
+C:\Project\Training\University.Service\University.Service\bin\roslyn\csc.exe
+C:\Project\Training\University.Service\University.Service\bin\roslyn\csc.exe.config
+C:\Project\Training\University.Service\University.Service\bin\roslyn\csc.rsp
+C:\Project\Training\University.Service\University.Service\bin\roslyn\csi.exe
+C:\Project\Training\University.Service\University.Service\bin\roslyn\csi.exe.config
+C:\Project\Training\University.Service\University.Service\bin\roslyn\csi.rsp
+C:\Project\Training\University.Service\University.Service\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Project\Training\University.Service\University.Service\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Project\Training\University.Service\University.Service\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Project\Training\University.Service\University.Service\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Project\Training\University.Service\University.Service\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Project\Training\University.Service\University.Service\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Project\Training\University.Service\University.Service\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Project\Training\University.Service\University.Service\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Project\Training\University.Service\University.Service\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Project\Training\University.Service\University.Service\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Project\Training\University.Service\University.Service\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Project\Training\University.Service\University.Service\bin\roslyn\System.AppContext.dll
+C:\Project\Training\University.Service\University.Service\bin\roslyn\System.Collections.Immutable.dll
+C:\Project\Training\University.Service\University.Service\bin\roslyn\System.Console.dll
+C:\Project\Training\University.Service\University.Service\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Project\Training\University.Service\University.Service\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Project\Training\University.Service\University.Service\bin\roslyn\System.IO.Compression.dll
+C:\Project\Training\University.Service\University.Service\bin\roslyn\System.IO.FileSystem.dll
+C:\Project\Training\University.Service\University.Service\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Project\Training\University.Service\University.Service\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Project\Training\University.Service\University.Service\bin\roslyn\System.IO.Pipes.dll
+C:\Project\Training\University.Service\University.Service\bin\roslyn\System.Reflection.Metadata.dll
+C:\Project\Training\University.Service\University.Service\bin\roslyn\System.Security.AccessControl.dll
+C:\Project\Training\University.Service\University.Service\bin\roslyn\System.Security.Claims.dll
+C:\Project\Training\University.Service\University.Service\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Project\Training\University.Service\University.Service\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Project\Training\University.Service\University.Service\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Project\Training\University.Service\University.Service\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Project\Training\University.Service\University.Service\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Project\Training\University.Service\University.Service\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Project\Training\University.Service\University.Service\bin\roslyn\System.ValueTuple.dll
+C:\Project\Training\University.Service\University.Service\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Project\Training\University.Service\University.Service\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Project\Training\University.Service\University.Service\bin\roslyn\System.Xml.XPath.dll
+C:\Project\Training\University.Service\University.Service\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Project\Training\University.Service\University.Service\bin\roslyn\vbc.exe
+C:\Project\Training\University.Service\University.Service\bin\roslyn\vbc.exe.config
+C:\Project\Training\University.Service\University.Service\bin\roslyn\vbc.rsp
+C:\Project\Training\University.Service\University.Service\bin\roslyn\VBCSCompiler.exe
+C:\Project\Training\University.Service\University.Service\bin\roslyn\VBCSCompiler.exe.config
+C:\Project\Training\University.Service\University.Service\bin\DotNetZip.dll
+C:\Project\Training\University.Service\University.Service\bin\EPPlus.dll
+C:\Project\Training\University.Service\University.Service\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Project\Training\University.Service\University.Service\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Project\Training\University.Service\University.Service\bin\Microsoft.Identity.Client.dll
+C:\Project\Training\University.Service\University.Service\bin\Microsoft.IdentityModel.Abstractions.dll
+C:\Project\Training\University.Service\University.Service\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Project\Training\University.Service\University.Service\bin\Microsoft.IdentityModel.Logging.dll
+C:\Project\Training\University.Service\University.Service\bin\Microsoft.Owin.Cors.dll
+C:\Project\Training\University.Service\University.Service\bin\Microsoft.Owin.dll
+C:\Project\Training\University.Service\University.Service\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Project\Training\University.Service\University.Service\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Project\Training\University.Service\University.Service\bin\Microsoft.Owin.Security.dll
+C:\Project\Training\University.Service\University.Service\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Project\Training\University.Service\University.Service\bin\Microsoft.PowerBI.Api.dll
+C:\Project\Training\University.Service\University.Service\bin\Microsoft.ReportViewer.Common.dll
+C:\Project\Training\University.Service\University.Service\bin\Microsoft.ReportViewer.DataVisualization.dll
+C:\Project\Training\University.Service\University.Service\bin\Microsoft.ReportViewer.Design.dll
+C:\Project\Training\University.Service\University.Service\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Project\Training\University.Service\University.Service\bin\Microsoft.ReportViewer.WebDesign.dll
+C:\Project\Training\University.Service\University.Service\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Project\Training\University.Service\University.Service\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Project\Training\University.Service\University.Service\bin\Microsoft.SqlServer.Types.dll
+C:\Project\Training\University.Service\University.Service\bin\MultipartDataMediaFormatter.dll
+C:\Project\Training\University.Service\University.Service\bin\Newtonsoft.Json.dll
+C:\Project\Training\University.Service\University.Service\bin\OfficeOpenXml.Core.ExcelPackage.dll
+C:\Project\Training\University.Service\University.Service\bin\OfficeOpenXml.Extends.dll
+C:\Project\Training\University.Service\University.Service\bin\Owin.dll
+C:\Project\Training\University.Service\University.Service\bin\SendGrid.dll
+C:\Project\Training\University.Service\University.Service\bin\StarkbankEcdsa.dll
+C:\Project\Training\University.Service\University.Service\bin\System.Buffers.dll
+C:\Project\Training\University.Service\University.Service\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Project\Training\University.Service\University.Service\bin\System.IO.Packaging.dll
+C:\Project\Training\University.Service\University.Service\bin\System.Memory.dll
+C:\Project\Training\University.Service\University.Service\bin\System.Net.Http.Formatting.dll
+C:\Project\Training\University.Service\University.Service\bin\System.Numerics.Vectors.dll
+C:\Project\Training\University.Service\University.Service\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Project\Training\University.Service\University.Service\bin\System.Security.Cryptography.Cng.dll
+C:\Project\Training\University.Service\University.Service\bin\System.Web.Cors.dll
+C:\Project\Training\University.Service\University.Service\bin\System.Web.Http.Cors.dll
+C:\Project\Training\University.Service\University.Service\bin\System.Web.Http.dll
+C:\Project\Training\University.Service\University.Service\bin\System.Web.Http.WebHost.dll
+C:\Project\Training\University.Service\University.Service\bin\University.Dao.dll
+C:\Project\Training\University.Service\University.Service\bin\University.Dto.dll
+C:\Project\Training\University.Service\University.Service\bin\MISStandarized.dll
+C:\Project\Training\University.Service\University.Service\bin\Microsoft.AnalysisServices.AdomdClient.dll
+C:\Project\Training\University.Service\University.Service\bin\EnvDTE.dll
+C:\Project\Training\University.Service\University.Service\bin\Microsoft.ReportViewer.WinForms.dll
+C:\Project\Training\University.Service\University.Service\bin\stdole.dll
+C:\Project\Training\University.Service\University.Service\bin\Microsoft.MSXML.dll
+C:\Project\Training\University.Service\University.Service\bin\University.Dao.pdb
+C:\Project\Training\University.Service\University.Service\bin\University.Dto.pdb
+C:\Project\Training\University.Service\University.Service\bin\DotNetZip.pdb
+C:\Project\Training\University.Service\University.Service\bin\DotNetZip.xml
+C:\Project\Training\University.Service\University.Service\bin\EPPlus.xml
+C:\Project\Training\University.Service\University.Service\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Project\Training\University.Service\University.Service\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Project\Training\University.Service\University.Service\bin\Microsoft.Identity.Client.xml
+C:\Project\Training\University.Service\University.Service\bin\Microsoft.IdentityModel.Abstractions.xml
+C:\Project\Training\University.Service\University.Service\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+C:\Project\Training\University.Service\University.Service\bin\Microsoft.IdentityModel.Logging.xml
+C:\Project\Training\University.Service\University.Service\bin\Microsoft.Owin.xml
+C:\Project\Training\University.Service\University.Service\bin\Microsoft.Owin.Cors.xml
+C:\Project\Training\University.Service\University.Service\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Project\Training\University.Service\University.Service\bin\Microsoft.Owin.Security.xml
+C:\Project\Training\University.Service\University.Service\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Project\Training\University.Service\University.Service\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Project\Training\University.Service\University.Service\bin\Newtonsoft.Json.xml
+C:\Project\Training\University.Service\University.Service\bin\OfficeOpenXml.Core.ExcelPackage.pdb
+C:\Project\Training\University.Service\University.Service\bin\SendGrid.pdb
+C:\Project\Training\University.Service\University.Service\bin\SendGrid.xml
+C:\Project\Training\University.Service\University.Service\bin\System.Buffers.xml
+C:\Project\Training\University.Service\University.Service\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Project\Training\University.Service\University.Service\bin\System.Memory.xml
+C:\Project\Training\University.Service\University.Service\bin\System.Net.Http.Formatting.xml
+C:\Project\Training\University.Service\University.Service\bin\System.Numerics.Vectors.xml
+C:\Project\Training\University.Service\University.Service\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Project\Training\University.Service\University.Service\bin\System.Security.Cryptography.Cng.xml
+C:\Project\Training\University.Service\University.Service\bin\System.Web.Http.xml
+C:\Project\Training\University.Service\University.Service\bin\System.Web.Http.Cors.xml
+C:\Project\Training\University.Service\University.Service\bin\System.Web.Http.WebHost.xml
+C:\Project\Training\University.Service\University.Service\bin\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Project\Training\University.Service\University.Service\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Project\Training\University.Service\University.Service\obj\Debug\University.Service.csproj.AssemblyReference.cache
+C:\Project\Training\University.Service\University.Service\obj\Debug\University.Service.csproj.CoreCompileInputs.cache
+C:\Project\Training\University.Service\University.Service\obj\Debug\Universi.71C5F8C8.Up2Date
+C:\Project\Training\University.Service\University.Service\obj\Debug\University.Service.dll
+C:\Project\Training\University.Service\University.Service\obj\Debug\University.Service.pdb
+C:\Training\University\University.Service\University.Service\bin\SqlServerTypes\x64\msvcr120.dll
+C:\Training\University\University.Service\University.Service\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Training\University\University.Service\University.Service\bin\SqlServerTypes\x86\msvcr120.dll
+C:\Training\University\University.Service\University.Service\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Training\University\University.Service\University.Service\bin\University.Service.dll.config
+C:\Training\University\University.Service\University.Service\bin\University.Service.dll
+C:\Training\University\University.Service\University.Service\bin\University.Service.pdb
+C:\Training\University\University.Service\University.Service\bin\roslyn\csc.exe
+C:\Training\University\University.Service\University.Service\bin\roslyn\csc.exe.config
+C:\Training\University\University.Service\University.Service\bin\roslyn\csc.rsp
+C:\Training\University\University.Service\University.Service\bin\roslyn\csi.exe
+C:\Training\University\University.Service\University.Service\bin\roslyn\csi.exe.config
+C:\Training\University\University.Service\University.Service\bin\roslyn\csi.rsp
+C:\Training\University\University.Service\University.Service\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Training\University\University.Service\University.Service\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Training\University\University.Service\University.Service\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Training\University\University.Service\University.Service\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Training\University\University.Service\University.Service\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Training\University\University.Service\University.Service\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Training\University\University.Service\University.Service\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Training\University\University.Service\University.Service\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Training\University\University.Service\University.Service\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Training\University\University.Service\University.Service\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Training\University\University.Service\University.Service\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Training\University\University.Service\University.Service\bin\roslyn\System.AppContext.dll
+C:\Training\University\University.Service\University.Service\bin\roslyn\System.Collections.Immutable.dll
+C:\Training\University\University.Service\University.Service\bin\roslyn\System.Console.dll
+C:\Training\University\University.Service\University.Service\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Training\University\University.Service\University.Service\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Training\University\University.Service\University.Service\bin\roslyn\System.IO.Compression.dll
+C:\Training\University\University.Service\University.Service\bin\roslyn\System.IO.FileSystem.dll
+C:\Training\University\University.Service\University.Service\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Training\University\University.Service\University.Service\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Training\University\University.Service\University.Service\bin\roslyn\System.IO.Pipes.dll
+C:\Training\University\University.Service\University.Service\bin\roslyn\System.Reflection.Metadata.dll
+C:\Training\University\University.Service\University.Service\bin\roslyn\System.Security.AccessControl.dll
+C:\Training\University\University.Service\University.Service\bin\roslyn\System.Security.Claims.dll
+C:\Training\University\University.Service\University.Service\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Training\University\University.Service\University.Service\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Training\University\University.Service\University.Service\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Training\University\University.Service\University.Service\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Training\University\University.Service\University.Service\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Training\University\University.Service\University.Service\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Training\University\University.Service\University.Service\bin\roslyn\System.ValueTuple.dll
+C:\Training\University\University.Service\University.Service\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Training\University\University.Service\University.Service\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Training\University\University.Service\University.Service\bin\roslyn\System.Xml.XPath.dll
+C:\Training\University\University.Service\University.Service\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Training\University\University.Service\University.Service\bin\roslyn\vbc.exe
+C:\Training\University\University.Service\University.Service\bin\roslyn\vbc.exe.config
+C:\Training\University\University.Service\University.Service\bin\roslyn\vbc.rsp
+C:\Training\University\University.Service\University.Service\bin\roslyn\VBCSCompiler.exe
+C:\Training\University\University.Service\University.Service\bin\roslyn\VBCSCompiler.exe.config
+C:\Training\University\University.Service\University.Service\bin\DotNetZip.dll
+C:\Training\University\University.Service\University.Service\bin\EPPlus.dll
+C:\Training\University\University.Service\University.Service\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Training\University\University.Service\University.Service\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Training\University\University.Service\University.Service\bin\Microsoft.Identity.Client.dll
+C:\Training\University\University.Service\University.Service\bin\Microsoft.IdentityModel.Abstractions.dll
+C:\Training\University\University.Service\University.Service\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Training\University\University.Service\University.Service\bin\Microsoft.IdentityModel.Logging.dll
+C:\Training\University\University.Service\University.Service\bin\Microsoft.Owin.Cors.dll
+C:\Training\University\University.Service\University.Service\bin\Microsoft.Owin.dll
+C:\Training\University\University.Service\University.Service\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Training\University\University.Service\University.Service\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Training\University\University.Service\University.Service\bin\Microsoft.Owin.Security.dll
+C:\Training\University\University.Service\University.Service\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Training\University\University.Service\University.Service\bin\Microsoft.PowerBI.Api.dll
+C:\Training\University\University.Service\University.Service\bin\Microsoft.ReportViewer.Common.dll
+C:\Training\University\University.Service\University.Service\bin\Microsoft.ReportViewer.DataVisualization.dll
+C:\Training\University\University.Service\University.Service\bin\Microsoft.ReportViewer.Design.dll
+C:\Training\University\University.Service\University.Service\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Training\University\University.Service\University.Service\bin\Microsoft.ReportViewer.WebDesign.dll
+C:\Training\University\University.Service\University.Service\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Training\University\University.Service\University.Service\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Training\University\University.Service\University.Service\bin\Microsoft.SqlServer.Types.dll
+C:\Training\University\University.Service\University.Service\bin\MultipartDataMediaFormatter.dll
+C:\Training\University\University.Service\University.Service\bin\Newtonsoft.Json.dll
+C:\Training\University\University.Service\University.Service\bin\OfficeOpenXml.Core.ExcelPackage.dll
+C:\Training\University\University.Service\University.Service\bin\OfficeOpenXml.Extends.dll
+C:\Training\University\University.Service\University.Service\bin\Owin.dll
+C:\Training\University\University.Service\University.Service\bin\SendGrid.dll
+C:\Training\University\University.Service\University.Service\bin\StarkbankEcdsa.dll
+C:\Training\University\University.Service\University.Service\bin\System.Buffers.dll
+C:\Training\University\University.Service\University.Service\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Training\University\University.Service\University.Service\bin\System.IO.Packaging.dll
+C:\Training\University\University.Service\University.Service\bin\System.Memory.dll
+C:\Training\University\University.Service\University.Service\bin\System.Net.Http.Formatting.dll
+C:\Training\University\University.Service\University.Service\bin\System.Numerics.Vectors.dll
+C:\Training\University\University.Service\University.Service\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Training\University\University.Service\University.Service\bin\System.Security.Cryptography.Cng.dll
+C:\Training\University\University.Service\University.Service\bin\System.Web.Cors.dll
+C:\Training\University\University.Service\University.Service\bin\System.Web.Http.Cors.dll
+C:\Training\University\University.Service\University.Service\bin\System.Web.Http.dll
+C:\Training\University\University.Service\University.Service\bin\System.Web.Http.WebHost.dll
+C:\Training\University\University.Service\University.Service\bin\University.Dao.dll
+C:\Training\University\University.Service\University.Service\bin\University.Dto.dll
+C:\Training\University\University.Service\University.Service\bin\MISStandarized.dll
+C:\Training\University\University.Service\University.Service\bin\Microsoft.AnalysisServices.AdomdClient.dll
+C:\Training\University\University.Service\University.Service\bin\EnvDTE.dll
+C:\Training\University\University.Service\University.Service\bin\Microsoft.ReportViewer.WinForms.dll
+C:\Training\University\University.Service\University.Service\bin\stdole.dll
+C:\Training\University\University.Service\University.Service\bin\Microsoft.MSXML.dll
+C:\Training\University\University.Service\University.Service\bin\University.Dao.pdb
+C:\Training\University\University.Service\University.Service\bin\University.Dto.pdb
+C:\Training\University\University.Service\University.Service\bin\DotNetZip.pdb
+C:\Training\University\University.Service\University.Service\bin\DotNetZip.xml
+C:\Training\University\University.Service\University.Service\bin\EPPlus.xml
+C:\Training\University\University.Service\University.Service\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Training\University\University.Service\University.Service\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Training\University\University.Service\University.Service\bin\Microsoft.Identity.Client.xml
+C:\Training\University\University.Service\University.Service\bin\Microsoft.IdentityModel.Abstractions.xml
+C:\Training\University\University.Service\University.Service\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+C:\Training\University\University.Service\University.Service\bin\Microsoft.IdentityModel.Logging.xml
+C:\Training\University\University.Service\University.Service\bin\Microsoft.Owin.xml
+C:\Training\University\University.Service\University.Service\bin\Microsoft.Owin.Cors.xml
+C:\Training\University\University.Service\University.Service\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Training\University\University.Service\University.Service\bin\Microsoft.Owin.Security.xml
+C:\Training\University\University.Service\University.Service\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Training\University\University.Service\University.Service\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Training\University\University.Service\University.Service\bin\Newtonsoft.Json.xml
+C:\Training\University\University.Service\University.Service\bin\OfficeOpenXml.Core.ExcelPackage.pdb
+C:\Training\University\University.Service\University.Service\bin\SendGrid.pdb
+C:\Training\University\University.Service\University.Service\bin\SendGrid.xml
+C:\Training\University\University.Service\University.Service\bin\System.Buffers.xml
+C:\Training\University\University.Service\University.Service\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Training\University\University.Service\University.Service\bin\System.Memory.xml
+C:\Training\University\University.Service\University.Service\bin\System.Net.Http.Formatting.xml
+C:\Training\University\University.Service\University.Service\bin\System.Numerics.Vectors.xml
+C:\Training\University\University.Service\University.Service\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Training\University\University.Service\University.Service\bin\System.Security.Cryptography.Cng.xml
+C:\Training\University\University.Service\University.Service\bin\System.Web.Http.xml
+C:\Training\University\University.Service\University.Service\bin\System.Web.Http.Cors.xml
+C:\Training\University\University.Service\University.Service\bin\System.Web.Http.WebHost.xml
+C:\Training\University\University.Service\University.Service\bin\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Training\University\University.Service\University.Service\bin\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Training\University\University.Service\University.Service\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Training\University\University.Service\University.Service\bin\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Training\University\University.Service\University.Service\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Training\University\University.Service\University.Service\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Training\University\University.Service\University.Service\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Training\University\University.Service\University.Service\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Training\University\University.Service\University.Service\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Training\University\University.Service\University.Service\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Training\University\University.Service\University.Service\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Training\University\University.Service\University.Service\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Training\University\University.Service\University.Service\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Training\University\University.Service\University.Service\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Training\University\University.Service\University.Service\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Training\University\University.Service\University.Service\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Training\University\University.Service\University.Service\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Training\University\University.Service\University.Service\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Training\University\University.Service\University.Service\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Training\University\University.Service\University.Service\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Training\University\University.Service\University.Service\bin\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Training\University\University.Service\University.Service\bin\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Training\University\University.Service\University.Service\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Training\University\University.Service\University.Service\bin\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Training\University\University.Service\University.Service\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Training\University\University.Service\University.Service\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Training\University\University.Service\University.Service\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Training\University\University.Service\University.Service\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Training\University\University.Service\University.Service\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Training\University\University.Service\University.Service\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Training\University\University.Service\University.Service\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Training\University\University.Service\University.Service\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Training\University\University.Service\University.Service\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Training\University\University.Service\University.Service\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Training\University\University.Service\University.Service\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Training\University\University.Service\University.Service\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Training\University\University.Service\University.Service\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Training\University\University.Service\University.Service\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Training\University\University.Service\University.Service\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Training\University\University.Service\University.Service\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Training\University\University.Service\University.Service\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Training\University\University.Service\University.Service\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Training\University\University.Service\University.Service\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Training\University\University.Service\University.Service\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Training\University\University.Service\University.Service\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Training\University\University.Service\University.Service\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Training\University\University.Service\University.Service\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Training\University\University.Service\University.Service\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Training\University\University.Service\University.Service\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Training\University\University.Service\University.Service\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Training\University\University.Service\University.Service\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Training\University\University.Service\University.Service\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Training\University\University.Service\University.Service\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Training\University\University.Service\University.Service\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Training\University\University.Service\University.Service\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Training\University\University.Service\University.Service\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Training\University\University.Service\University.Service\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Training\University\University.Service\University.Service\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Training\University\University.Service\University.Service\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Training\University\University.Service\University.Service\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Training\University\University.Service\University.Service\obj\Debug\University.Service.csproj.AssemblyReference.cache
+C:\Training\University\University.Service\University.Service\obj\Debug\University.Service.csproj.CoreCompileInputs.cache
+C:\Training\University\University.Service\University.Service\obj\Debug\Universi.71C5F8C8.Up2Date
+C:\Training\University\University.Service\University.Service\obj\Debug\University.Service.dll
+C:\Training\University\University.Service\University.Service\obj\Debug\University.Service.pdb
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\SqlServerTypes\x64\msvcr120.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\SqlServerTypes\x86\msvcr120.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\University.Service.dll.config
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\University.Service.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\University.Service.pdb
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\csc.exe
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\csc.exe.config
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\csc.rsp
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\csi.exe
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\csi.exe.config
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\csi.rsp
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\Microsoft.Managed.Core.targets
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\System.AppContext.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\System.Collections.Immutable.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\System.Console.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\System.IO.Compression.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\System.IO.FileSystem.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\System.IO.Pipes.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\System.Reflection.Metadata.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\System.Security.AccessControl.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\System.Security.Claims.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\System.Security.Principal.Windows.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\System.ValueTuple.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\System.Xml.XmlDocument.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\System.Xml.XPath.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\vbc.exe
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\vbc.exe.config
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\vbc.rsp
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\VBCSCompiler.exe
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\roslyn\VBCSCompiler.exe.config
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\DotNetZip.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\EPPlus.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\Microsoft.AspNet.Identity.Core.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\Microsoft.Identity.Client.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\Microsoft.IdentityModel.Abstractions.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\Microsoft.IdentityModel.Logging.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\Microsoft.Owin.Cors.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\Microsoft.Owin.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\Microsoft.Owin.Security.Cookies.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\Microsoft.Owin.Security.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\Microsoft.Owin.Security.OAuth.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\Microsoft.PowerBI.Api.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\Microsoft.ReportViewer.Common.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\Microsoft.ReportViewer.DataVisualization.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\Microsoft.ReportViewer.Design.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\Microsoft.ReportViewer.WebDesign.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\Microsoft.ReportViewer.WebForms.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\Microsoft.Rest.ClientRuntime.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\Microsoft.SqlServer.Types.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\MultipartDataMediaFormatter.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\Newtonsoft.Json.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\OfficeOpenXml.Core.ExcelPackage.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\OfficeOpenXml.Extends.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\Owin.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\SendGrid.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\StarkbankEcdsa.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\System.Buffers.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\System.Diagnostics.DiagnosticSource.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\System.IO.Packaging.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\System.Memory.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\System.Net.Http.Formatting.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\System.Numerics.Vectors.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\System.Security.Cryptography.Cng.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\System.Web.Cors.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\System.Web.Http.Cors.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\System.Web.Http.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\System.Web.Http.WebHost.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\University.Dao.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\University.Dto.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\MISStandarized.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\Microsoft.AnalysisServices.AdomdClient.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\EnvDTE.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\Microsoft.ReportViewer.WinForms.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\stdole.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\University.Dao.pdb
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\University.Dto.pdb
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\DotNetZip.pdb
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\DotNetZip.xml
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\EPPlus.xml
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\Microsoft.AspNet.Identity.Core.xml
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\Microsoft.Identity.Client.xml
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\Microsoft.IdentityModel.Abstractions.xml
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\Microsoft.IdentityModel.Logging.xml
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\Microsoft.Owin.xml
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\Microsoft.Owin.Cors.xml
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\Microsoft.Owin.Security.xml
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\Microsoft.Owin.Security.Cookies.xml
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\Microsoft.Owin.Security.OAuth.xml
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\Newtonsoft.Json.xml
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\OfficeOpenXml.Core.ExcelPackage.pdb
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\SendGrid.pdb
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\SendGrid.xml
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\System.Buffers.xml
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\System.Diagnostics.DiagnosticSource.xml
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\System.Memory.xml
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\System.Net.Http.Formatting.xml
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\System.Numerics.Vectors.xml
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\System.Security.Cryptography.Cng.xml
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\System.Web.Http.xml
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\System.Web.Http.Cors.xml
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\System.Web.Http.WebHost.xml
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\de\Microsoft.ReportViewer.Common.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\es\Microsoft.ReportViewer.Common.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\it\Microsoft.ReportViewer.Common.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\de\Microsoft.ReportViewer.Design.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\es\Microsoft.ReportViewer.Design.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\it\Microsoft.ReportViewer.Design.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\obj\Debug\University.Service.csproj.AssemblyReference.cache
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\obj\Debug\University.Service.csproj.CoreCompileInputs.cache
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\obj\Debug\University.Service.csproj.CopyComplete
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\obj\Debug\University.Service.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Service\obj\Debug\University.Service.pdb
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\obj\Debug\University.Service.csproj.AssemblyReference.cache
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\obj\Debug\University.Service.csproj.CoreCompileInputs.cache
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\obj\Debug\University.Service.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\obj\Debug\University.Service.pdb
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\SqlServerTypes\x64\msvcr120.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\SqlServerTypes\x86\msvcr120.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\University.Service.dll.config
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\University.Service.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\University.Service.pdb
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\csc.exe
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\csc.exe.config
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\csc.rsp
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\csi.exe
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\csi.exe.config
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\csi.rsp
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\System.AppContext.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\System.Console.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\System.IO.Compression.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\System.IO.Pipes.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\System.Security.Claims.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\System.ValueTuple.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\System.Xml.XPath.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\vbc.exe
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\vbc.exe.config
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\vbc.rsp
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\VBCSCompiler.exe
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\DotNetZip.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\EPPlus.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\Microsoft.Identity.Client.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\Microsoft.Owin.Cors.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\Microsoft.Owin.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\Microsoft.Owin.Security.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\Microsoft.PowerBI.Api.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\Microsoft.ReportViewer.Design.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\Microsoft.ReportViewer.WebDesign.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\Microsoft.SqlServer.Types.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\MultipartDataMediaFormatter.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\Newtonsoft.Json.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\OfficeOpenXml.Core.ExcelPackage.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\OfficeOpenXml.Extends.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\Owin.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\SendGrid.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\StarkbankEcdsa.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\System.Buffers.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\System.IO.Packaging.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\System.Memory.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\System.Net.Http.Formatting.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\System.Numerics.Vectors.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\System.Security.Cryptography.Cng.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\System.Web.Cors.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\System.Web.Http.Cors.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\System.Web.Http.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\System.Web.Http.WebHost.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\University.Dao.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\University.Dto.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\MISStandarized.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\Microsoft.AnalysisServices.AdomdClient.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\EnvDTE.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\Microsoft.ReportViewer.WinForms.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\stdole.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\Microsoft.MSXML.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\University.Dao.pdb
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\University.Dto.pdb
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\DotNetZip.pdb
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\DotNetZip.xml
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\EPPlus.xml
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\Microsoft.Identity.Client.xml
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\Microsoft.IdentityModel.Abstractions.xml
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\Microsoft.IdentityModel.Logging.xml
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\Microsoft.Owin.xml
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\Microsoft.Owin.Cors.xml
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\Microsoft.Owin.Security.xml
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\Newtonsoft.Json.xml
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\OfficeOpenXml.Core.ExcelPackage.pdb
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\SendGrid.pdb
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\SendGrid.xml
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\System.Buffers.xml
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\System.Memory.xml
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\System.Net.Http.Formatting.xml
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\System.Numerics.Vectors.xml
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\System.Security.Cryptography.Cng.xml
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\System.Web.Http.xml
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\System.Web.Http.Cors.xml
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\System.Web.Http.WebHost.xml
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Service\obj\Debug\Universi.71C5F8C8.Up2Date
+C:\Personal\Work\University\University.Service\University.Service\bin\SqlServerTypes\x64\msvcr120.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\SqlServerTypes\x86\msvcr120.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\University.Service.dll.config
+C:\Personal\Work\University\University.Service\University.Service\bin\University.Service.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\University.Service.pdb
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\csc.exe
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\csc.exe.config
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\csc.rsp
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\csi.exe
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\csi.exe.config
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\csi.rsp
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\System.AppContext.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\System.Collections.Immutable.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\System.Console.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\System.IO.Compression.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\System.IO.FileSystem.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\System.IO.Pipes.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\System.Reflection.Metadata.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\System.Security.AccessControl.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\System.Security.Claims.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\System.ValueTuple.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\System.Xml.XPath.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\vbc.exe
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\vbc.exe.config
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\vbc.rsp
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\VBCSCompiler.exe
+C:\Personal\Work\University\University.Service\University.Service\bin\roslyn\VBCSCompiler.exe.config
+C:\Personal\Work\University\University.Service\University.Service\bin\DotNetZip.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\EPPlus.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\Microsoft.Identity.Client.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\Microsoft.IdentityModel.Abstractions.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\Microsoft.IdentityModel.Logging.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\Microsoft.Owin.Cors.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\Microsoft.Owin.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\Microsoft.Owin.Security.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\Microsoft.PowerBI.Api.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\Microsoft.ReportViewer.Common.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\Microsoft.ReportViewer.DataVisualization.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\Microsoft.ReportViewer.Design.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\Microsoft.ReportViewer.WebDesign.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\Microsoft.SqlServer.Types.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\MultipartDataMediaFormatter.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\Newtonsoft.Json.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\OfficeOpenXml.Core.ExcelPackage.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\OfficeOpenXml.Extends.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\Owin.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\SendGrid.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\StarkbankEcdsa.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\System.Buffers.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\System.IO.Packaging.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\System.Memory.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\System.Net.Http.Formatting.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\System.Numerics.Vectors.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\System.Security.Cryptography.Cng.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\System.Web.Cors.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\System.Web.Http.Cors.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\System.Web.Http.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\System.Web.Http.WebHost.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\University.Dao.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\University.Dto.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\MISStandarized.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\Microsoft.AnalysisServices.AdomdClient.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\EnvDTE.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\Microsoft.ReportViewer.WinForms.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\stdole.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\Microsoft.MSXML.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\University.Dao.pdb
+C:\Personal\Work\University\University.Service\University.Service\bin\University.Dto.pdb
+C:\Personal\Work\University\University.Service\University.Service\bin\DotNetZip.pdb
+C:\Personal\Work\University\University.Service\University.Service\bin\DotNetZip.xml
+C:\Personal\Work\University\University.Service\University.Service\bin\EPPlus.xml
+C:\Personal\Work\University\University.Service\University.Service\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Personal\Work\University\University.Service\University.Service\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Personal\Work\University\University.Service\University.Service\bin\Microsoft.Identity.Client.xml
+C:\Personal\Work\University\University.Service\University.Service\bin\Microsoft.IdentityModel.Abstractions.xml
+C:\Personal\Work\University\University.Service\University.Service\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+C:\Personal\Work\University\University.Service\University.Service\bin\Microsoft.IdentityModel.Logging.xml
+C:\Personal\Work\University\University.Service\University.Service\bin\Microsoft.Owin.xml
+C:\Personal\Work\University\University.Service\University.Service\bin\Microsoft.Owin.Cors.xml
+C:\Personal\Work\University\University.Service\University.Service\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Personal\Work\University\University.Service\University.Service\bin\Microsoft.Owin.Security.xml
+C:\Personal\Work\University\University.Service\University.Service\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Personal\Work\University\University.Service\University.Service\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Personal\Work\University\University.Service\University.Service\bin\Newtonsoft.Json.xml
+C:\Personal\Work\University\University.Service\University.Service\bin\OfficeOpenXml.Core.ExcelPackage.pdb
+C:\Personal\Work\University\University.Service\University.Service\bin\SendGrid.pdb
+C:\Personal\Work\University\University.Service\University.Service\bin\SendGrid.xml
+C:\Personal\Work\University\University.Service\University.Service\bin\System.Buffers.xml
+C:\Personal\Work\University\University.Service\University.Service\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Personal\Work\University\University.Service\University.Service\bin\System.Memory.xml
+C:\Personal\Work\University\University.Service\University.Service\bin\System.Net.Http.Formatting.xml
+C:\Personal\Work\University\University.Service\University.Service\bin\System.Numerics.Vectors.xml
+C:\Personal\Work\University\University.Service\University.Service\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Personal\Work\University\University.Service\University.Service\bin\System.Security.Cryptography.Cng.xml
+C:\Personal\Work\University\University.Service\University.Service\bin\System.Web.Http.xml
+C:\Personal\Work\University\University.Service\University.Service\bin\System.Web.Http.Cors.xml
+C:\Personal\Work\University\University.Service\University.Service\bin\System.Web.Http.WebHost.xml
+C:\Personal\Work\University\University.Service\University.Service\bin\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Personal\Work\University\University.Service\University.Service\obj\Debug\University.Service.csproj.AssemblyReference.cache
+C:\Personal\Work\University\University.Service\University.Service\obj\Debug\University.Service.csproj.CoreCompileInputs.cache
+C:\Personal\Work\University\University.Service\University.Service\obj\Debug\Universi.71C5F8C8.Up2Date
+C:\Personal\Work\University\University.Service\University.Service\obj\Debug\University.Service.dll
+C:\Personal\Work\University\University.Service\University.Service\obj\Debug\University.Service.pdb
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\SqlServerTypes\x64\msvcr120.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\SqlServerTypes\x86\msvcr120.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\University.Service.dll.config
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\University.Service.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\University.Service.pdb
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\csc.exe
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\csc.exe.config
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\csc.rsp
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\csi.exe
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\csi.exe.config
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\csi.rsp
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\Microsoft.Managed.Core.targets
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\System.AppContext.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\System.Collections.Immutable.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\System.Console.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\System.IO.Compression.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\System.IO.FileSystem.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\System.IO.Pipes.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\System.Reflection.Metadata.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\System.Security.AccessControl.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\System.Security.Claims.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\System.Security.Principal.Windows.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\System.ValueTuple.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\System.Xml.XmlDocument.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\System.Xml.XPath.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\vbc.exe
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\vbc.exe.config
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\vbc.rsp
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\VBCSCompiler.exe
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\roslyn\VBCSCompiler.exe.config
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\DotNetZip.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\EPPlus.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\Microsoft.AspNet.Identity.Core.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\Microsoft.Identity.Client.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\Microsoft.IdentityModel.Abstractions.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\Microsoft.IdentityModel.Logging.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\Microsoft.Owin.Cors.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\Microsoft.Owin.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\Microsoft.Owin.Security.Cookies.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\Microsoft.Owin.Security.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\Microsoft.Owin.Security.OAuth.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\Microsoft.PowerBI.Api.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\Microsoft.ReportViewer.Common.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\Microsoft.ReportViewer.DataVisualization.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\Microsoft.ReportViewer.Design.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\Microsoft.ReportViewer.WebDesign.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\Microsoft.ReportViewer.WebForms.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\Microsoft.Rest.ClientRuntime.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\Microsoft.SqlServer.Types.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\MultipartDataMediaFormatter.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\Newtonsoft.Json.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\OfficeOpenXml.Core.ExcelPackage.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\OfficeOpenXml.Extends.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\Owin.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\SendGrid.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\StarkbankEcdsa.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\System.Buffers.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\System.Diagnostics.DiagnosticSource.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\System.IO.Packaging.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\System.Memory.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\System.Net.Http.Formatting.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\System.Numerics.Vectors.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\System.Security.Cryptography.Cng.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\System.Web.Cors.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\System.Web.Http.Cors.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\System.Web.Http.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\System.Web.Http.WebHost.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\University.Dao.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\University.Dto.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\MISStandarized.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\Microsoft.AnalysisServices.AdomdClient.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\EnvDTE.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\Microsoft.ReportViewer.WinForms.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\stdole.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\University.Dao.pdb
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\University.Dto.pdb
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\DotNetZip.pdb
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\DotNetZip.xml
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\EPPlus.xml
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\Microsoft.AspNet.Identity.Core.xml
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\Microsoft.Identity.Client.xml
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\Microsoft.IdentityModel.Abstractions.xml
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\Microsoft.IdentityModel.Logging.xml
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\Microsoft.Owin.xml
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\Microsoft.Owin.Cors.xml
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\Microsoft.Owin.Security.xml
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\Microsoft.Owin.Security.Cookies.xml
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\Microsoft.Owin.Security.OAuth.xml
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\Newtonsoft.Json.xml
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\OfficeOpenXml.Core.ExcelPackage.pdb
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\SendGrid.pdb
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\SendGrid.xml
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\System.Buffers.xml
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\System.Diagnostics.DiagnosticSource.xml
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\System.Memory.xml
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\System.Net.Http.Formatting.xml
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\System.Numerics.Vectors.xml
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\System.Security.Cryptography.Cng.xml
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\System.Web.Http.xml
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\System.Web.Http.Cors.xml
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\System.Web.Http.WebHost.xml
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\de\Microsoft.ReportViewer.Common.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\es\Microsoft.ReportViewer.Common.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\it\Microsoft.ReportViewer.Common.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\de\Microsoft.ReportViewer.Design.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\es\Microsoft.ReportViewer.Design.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\it\Microsoft.ReportViewer.Design.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\obj\Debug\University.Service.csproj.AssemblyReference.cache
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\obj\Debug\University.Service.csproj.CoreCompileInputs.cache
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\obj\Debug\Universi.71C5F8C8.Up2Date
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\obj\Debug\University.Service.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Service\obj\Debug\University.Service.pdb

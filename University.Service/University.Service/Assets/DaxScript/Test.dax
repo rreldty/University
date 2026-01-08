@@ -1,0 +1,73 @@
+EVALUATE 
+
+SELECTCOLUMNS(
+
+SUMMARIZE(
+
+// FILTER //
+CALCULATETABLE('SS'
+, FILTER('Calendar', 1=1
+//F_YEAR	&& 'Calendar'[Year] IN { #YEAR }
+//F_WEEK	&& 'Calendar'[Week No.] IN { #WEEK }
+	)
+, FILTER('Distributor', 1=1
+//F_CONO	&& ''Distributor'[Distributor Code] IN{ #CONO } //eg. "15421511", "15083735"	
+	)
+, FILTER('SS Customer Yearly', 1=1
+//F_CC01	&& 'SS Customer Yearly'[Division Code] IN { #CC01 }
+//F_CC02	&& 'SS Customer Yearly'[Subivision Code] IN { #CC02 }
+//F_CC03	&& 'SS Customer Yearly'[Type Group Code] IN { #CC03 }
+//F_CC04	&& 'SS Customer Yearly'[Type Code] IN { #CC04 }
+//F_CC05	&& 'SS Customer Yearly'[Channel Code] IN { #CC05 }
+//F_CC06	&& 'SS Customer Yearly'[Group Code] IN { #CC06 }
+	)
+, FILTER('Item', 1=1 
+//F_IC02	&& 'Item'[Category Group Code] IN { #IC02 }
+//F_IC03	&& 'Item'[Category Code] IN { #IC03 }
+//F_IC04	&& 'Item'[Brand Code] IN { #IC04 }
+//F_SBNO	&& 'Item'[SKU Relaunch Code] IN { #SBNO }
+//F_ITNO	&& 'Item'[SKU Code] IN { #ITNO }
+	)
+)
+
+// GROUP BY //
+//D_CC01NA	, 'SS Customer Yearly'[Division]
+//D_CC02NA	, 'SS Customer Yearly'[Subdivision]
+//D_CONO	, 'Distributor'[Distributor Code]
+//D_CONA	, 'Distributor'[Distributor]
+//D_CC03NA	, 'SS Customer Yearly'[Type Group]
+//D_CC04NA	, 'SS Customer Yearly'[Type]
+//D_CC05NA	, 'SS Customer Yearly'[Channel]
+//D_CC06NA	, 'SS Customer Yearly'[Group]
+//D_IC02NA	, 'Item'[Category Group]
+//D_IC03NA	, 'Item'[Category]
+//D_IC04NA	, 'Item'[Brand]
+//D_SBNO	, 'Item'[SKU Relaunch]
+//D_ITNA	, 'Item'[SKU]
+, 'Calendar'[Year] 
+, 'Calendar'[Week No.]  
+
+// KEY FIGURE //
+, "Value", SUM(SS[Invoice Amount]) 
+	
+)
+
+// ALIAS //
+//D_CC01NA	, "Region", 'SS Customer Yearly'[Division]
+//D_CC02NA	, "Area", 'SS Customer Yearly'[Subdivision]
+//D_CONO	, "Distributor Code", 'Distributor'[Distributor Code]
+//D_CONA	, "Distributor", 'Distributor'[Distributor]
+//D_CC03NA	, "Type Group", 'SS Customer Yearly'[Type Group]
+//D_CC04NA	, "Type", 'SS Customer Yearly'[Type]
+//D_CC05NA	, "Channel", 'SS Customer Yearly'[Channel]
+//D_CC06NA	, "Group", 'SS Customer Yearly'[Group]
+//D_IC02NA	, "Category Group", 'Item'[Category Group]
+//D_IC03NA	, "Category", 'Item'[Category]
+//D_IC04NA	, "Brand", 'Item'[Brand]
+//D_SBNO	, "SKU Relaunch", 'Item'[SKU Relaunch]
+//D_ITNA	, "SKU", 'Item'[SKU]
+, "Year", 'Calendar'[Year]  
+, "Week", 'Calendar'[Week No.]  
+, "Value", [Value]
+)
+

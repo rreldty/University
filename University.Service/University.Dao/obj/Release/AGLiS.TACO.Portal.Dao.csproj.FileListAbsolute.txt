@@ -1,0 +1,2 @@
+C:\Project\TACO\AGLiS.TACO.Portal\AGLiS.TACO.Portal.Service\AGLiS.TACO.Portal.Dao\obj\Release\AGLiS.TACO.Portal.Dao.csproj.AssemblyReference.cache
+C:\Project\TACO\AGLiS.TACO.Portal\AGLiS.TACO.Portal.Service\AGLiS.TACO.Portal.Dao\obj\Release\AGLiS.TACO.Portal.Dao.csproj.CoreCompileInputs.cache

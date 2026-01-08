@@ -1,0 +1,70 @@
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Dao\bin\Debug\Microsoft.AnalysisServices.AdomdClient.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Dao\obj\Debug\University.Dao.csproj.AssemblyReference.cache
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Dao\obj\Debug\University.Dao.csproj.CoreCompileInputs.cache
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Dao\obj\Debug\Universi.1F52B72B.Up2Date
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Dao\bin\Debug\University.Dao.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Dao\bin\Debug\University.Dao.pdb
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Dao\bin\Debug\University.Dto.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Dao\bin\Debug\University.Dto.pdb
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Dao\obj\Debug\University.Dao.dll
+C:\Project\Training\University.Service\AGLiS.TACO.Portal.Dao\obj\Debug\University.Dao.pdb
+C:\Project\Training\University.Service\University.Dao\bin\Debug\University.Dao.dll
+C:\Project\Training\University.Service\University.Dao\bin\Debug\University.Dao.pdb
+C:\Project\Training\University.Service\University.Dao\bin\Debug\Microsoft.AnalysisServices.AdomdClient.dll
+C:\Project\Training\University.Service\University.Dao\bin\Debug\University.Dto.dll
+C:\Project\Training\University.Service\University.Dao\bin\Debug\University.Dto.pdb
+C:\Project\Training\University.Service\University.Dao\obj\Debug\University.Dao.csproj.AssemblyReference.cache
+C:\Project\Training\University.Service\University.Dao\obj\Debug\University.Dao.csproj.CoreCompileInputs.cache
+C:\Project\Training\University.Service\University.Dao\obj\Debug\Universi.1F52B72B.Up2Date
+C:\Project\Training\University.Service\University.Dao\obj\Debug\University.Dao.dll
+C:\Project\Training\University.Service\University.Dao\obj\Debug\University.Dao.pdb
+C:\Training\University\University.Service\University.Dao\bin\Debug\University.Dao.dll
+C:\Training\University\University.Service\University.Dao\bin\Debug\University.Dao.pdb
+C:\Training\University\University.Service\University.Dao\bin\Debug\Microsoft.AnalysisServices.AdomdClient.dll
+C:\Training\University\University.Service\University.Dao\bin\Debug\University.Dto.dll
+C:\Training\University\University.Service\University.Dao\bin\Debug\University.Dto.pdb
+C:\Training\University\University.Service\University.Dao\obj\Debug\University.Dao.csproj.AssemblyReference.cache
+C:\Training\University\University.Service\University.Dao\obj\Debug\University.Dao.csproj.CoreCompileInputs.cache
+C:\Training\University\University.Service\University.Dao\obj\Debug\Universi.1F52B72B.Up2Date
+C:\Training\University\University.Service\University.Dao\obj\Debug\University.Dao.dll
+C:\Training\University\University.Service\University.Dao\obj\Debug\University.Dao.pdb
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Dao\bin\Debug\University.Dao.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Dao\bin\Debug\University.Dao.pdb
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Dao\bin\Debug\Microsoft.AnalysisServices.AdomdClient.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Dao\bin\Debug\University.Dto.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Dao\bin\Debug\University.Dto.pdb
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Dao\obj\Debug\University.Dao.csproj.AssemblyReference.cache
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Dao\obj\Debug\University.Dao.csproj.CoreCompileInputs.cache
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Dao\obj\Debug\University.Dao.csproj.CopyComplete
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Dao\obj\Debug\University.Dao.dll
+C:\TMW Project\Backup_Training\Day2-3\University\University.Service\University.Dao\obj\Debug\University.Dao.pdb
+C:\Users\cynty\Downloads\University\University\University.Service\University.Dao\obj\Debug\University.Dao.csproj.AssemblyReference.cache
+C:\Users\cynty\Downloads\University\University\University.Service\University.Dao\obj\Debug\University.Dao.csproj.CoreCompileInputs.cache
+C:\Users\cynty\Downloads\University\University\University.Service\University.Dao\obj\Debug\University.Dao.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Dao\obj\Debug\University.Dao.pdb
+C:\Users\cynty\Downloads\University\University\University.Service\University.Dao\bin\Debug\University.Dao.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Dao\bin\Debug\University.Dao.pdb
+C:\Users\cynty\Downloads\University\University\University.Service\University.Dao\bin\Debug\Microsoft.AnalysisServices.AdomdClient.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Dao\bin\Debug\University.Dto.dll
+C:\Users\cynty\Downloads\University\University\University.Service\University.Dao\bin\Debug\University.Dto.pdb
+C:\Users\cynty\Downloads\University\University\University.Service\University.Dao\obj\Debug\Universi.1F52B72B.Up2Date
+C:\Personal\Work\University\University.Service\University.Dao\bin\Debug\University.Dao.dll
+C:\Personal\Work\University\University.Service\University.Dao\bin\Debug\University.Dao.pdb
+C:\Personal\Work\University\University.Service\University.Dao\bin\Debug\Microsoft.AnalysisServices.AdomdClient.dll
+C:\Personal\Work\University\University.Service\University.Dao\bin\Debug\University.Dto.dll
+C:\Personal\Work\University\University.Service\University.Dao\bin\Debug\University.Dto.pdb
+C:\Personal\Work\University\University.Service\University.Dao\obj\Debug\University.Dao.csproj.AssemblyReference.cache
+C:\Personal\Work\University\University.Service\University.Dao\obj\Debug\University.Dao.csproj.CoreCompileInputs.cache
+C:\Personal\Work\University\University.Service\University.Dao\obj\Debug\Universi.1F52B72B.Up2Date
+C:\Personal\Work\University\University.Service\University.Dao\obj\Debug\University.Dao.dll
+C:\Personal\Work\University\University.Service\University.Dao\obj\Debug\University.Dao.pdb
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Dao\bin\Debug\University.Dao.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Dao\bin\Debug\University.Dao.pdb
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Dao\bin\Debug\Microsoft.AnalysisServices.AdomdClient.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Dao\bin\Debug\University.Dto.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Dao\bin\Debug\University.Dto.pdb
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Dao\obj\Debug\University.Dao.csproj.AssemblyReference.cache
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Dao\obj\Debug\University.Dao.csproj.CoreCompileInputs.cache
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Dao\obj\Debug\Universi.1F52B72B.Up2Date
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Dao\obj\Debug\University.Dao.dll
+C:\flutter_projects\MAGANG TMW\University\University.Service\University.Dao\obj\Debug\University.Dao.pdb

@@ -1,0 +1,6 @@
+C:\Project\TACO\AGLiS.TACO.Portal\AGLiS.TACO.Portal.Service\AGLiS.TACO.Portal.Dto\bin\Release\AGLiS.TACO.Portal.Dto.dll
+C:\Project\TACO\AGLiS.TACO.Portal\AGLiS.TACO.Portal.Service\AGLiS.TACO.Portal.Dto\bin\Release\AGLiS.TACO.Portal.Dto.pdb
+C:\Project\TACO\AGLiS.TACO.Portal\AGLiS.TACO.Portal.Service\AGLiS.TACO.Portal.Dto\obj\Release\AGLiS.TACO.Portal.Dto.csproj.AssemblyReference.cache
+C:\Project\TACO\AGLiS.TACO.Portal\AGLiS.TACO.Portal.Service\AGLiS.TACO.Portal.Dto\obj\Release\AGLiS.TACO.Portal.Dto.csproj.CoreCompileInputs.cache
+C:\Project\TACO\AGLiS.TACO.Portal\AGLiS.TACO.Portal.Service\AGLiS.TACO.Portal.Dto\obj\Release\AGLiS.TACO.Portal.Dto.dll
+C:\Project\TACO\AGLiS.TACO.Portal\AGLiS.TACO.Portal.Service\AGLiS.TACO.Portal.Dto\obj\Release\AGLiS.TACO.Portal.Dto.pdb
