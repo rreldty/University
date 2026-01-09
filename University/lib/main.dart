@@ -4,8 +4,8 @@ import 'package:university/Views/Xample/XM050A_UserGroup.dart';
 
 import 'Views/Training/Fakultas.dart';
 import 'Views/Training/Jurusan.dart';
+import 'Views/Training/KRSHeader.dart';
 import 'Views/Training/MataKuliah.dart';
-
 
 void main() {
   runApp(const MyApp());
@@ -80,6 +80,20 @@ class HomePage extends StatelessWidget {
                 );
               },
               child: const Text("Mata Kuliah"),
+            ),
+          ),
+          SizedBox(
+            height: 10,
+          ),
+          Container(
+            child: ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => KRSHeader()),
+                );
+              },
+              child: const Text("KRS"),
             ),
           ),
         ],

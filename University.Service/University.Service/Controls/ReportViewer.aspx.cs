@@ -22,12 +22,12 @@ namespace University.Api.Controls
 
                 string strEntity = Request["entity"] ?? string.Empty;
 
-                if (!string.IsNullOrEmpty(strEntity))
+                if (!string.IsNullOrEmpty(Request["entity"] ?? string.Empty))
                 {
                     string strPathRdlc = string.Empty;
 
                     ReportDao daoReport = new ReportDao();
-                    DataSet dsData = daoReport.GetDataSetEntity(strEntity, Request, out strPathRdlc);
+                    DataSet dsData = daoReport.GetDataSetEntity(Request["entity"] ?? string.Empty, Request, out strPathRdlc);
 
                     ReportViewer1.ProcessingMode = ProcessingMode.Local;
                     ReportViewer1.LocalReport.ReportPath = Server.MapPath("~/Reports/ReportDefinition/" + strPathRdlc + ".rdlc");

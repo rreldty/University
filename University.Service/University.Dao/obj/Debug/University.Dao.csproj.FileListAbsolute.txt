@@ -68,3 +68,13 @@ C:\flutter_projects\MAGANG TMW\University\University.Service\University.Dao\obj\
 C:\flutter_projects\MAGANG TMW\University\University.Service\University.Dao\obj\Debug\Universi.1F52B72B.Up2Date
 C:\flutter_projects\MAGANG TMW\University\University.Service\University.Dao\obj\Debug\University.Dao.dll
 C:\flutter_projects\MAGANG TMW\University\University.Service\University.Dao\obj\Debug\University.Dao.pdb
+C:\Users\5320 - DDT\Downloads\Farrel\University\University.Service\University.Dao\bin\Debug\University.Dao.dll
+C:\Users\5320 - DDT\Downloads\Farrel\University\University.Service\University.Dao\bin\Debug\University.Dao.pdb
+C:\Users\5320 - DDT\Downloads\Farrel\University\University.Service\University.Dao\bin\Debug\Microsoft.AnalysisServices.AdomdClient.dll
+C:\Users\5320 - DDT\Downloads\Farrel\University\University.Service\University.Dao\bin\Debug\University.Dto.dll
+C:\Users\5320 - DDT\Downloads\Farrel\University\University.Service\University.Dao\bin\Debug\University.Dto.pdb
+C:\Users\5320 - DDT\Downloads\Farrel\University\University.Service\University.Dao\obj\Debug\University.Dao.csproj.AssemblyReference.cache
+C:\Users\5320 - DDT\Downloads\Farrel\University\University.Service\University.Dao\obj\Debug\University.Dao.csproj.CoreCompileInputs.cache
+C:\Users\5320 - DDT\Downloads\Farrel\University\University.Service\University.Dao\obj\Debug\Universi.1F52B72B.Up2Date
+C:\Users\5320 - DDT\Downloads\Farrel\University\University.Service\University.Dao\obj\Debug\University.Dao.dll
+C:\Users\5320 - DDT\Downloads\Farrel\University\University.Service\University.Dao\obj\Debug\University.Dao.pdb
