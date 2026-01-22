@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Data.Common;
 using System.Collections.Generic;
 using System.Text;
@@ -10,20 +10,11 @@ using University.Dto.Training;
 
 namespace University.Dao.Training
 {
-    public class KRSDetailDao : BaseDao<KRSDetailDto>
+    public class KrsDetailDao : BaseDao<KrsDetailDto>
     {
-        public int GetNextLineNo(string nim, string semester)
-        {
-            string sqlMax = $"SELECT ISNULL(MAX(line_no),0) FROM KRSDetail WHERE nim = '{nim}' AND semester = '{semester}'";
-            object maxLine = this.ExecuteDbScalar(sqlMax);
-            int nextLine = 1;
-            if (maxLine != null && maxLine != DBNull.Value)
-                nextLine = Convert.ToInt32(maxLine) + 1;
-            return nextLine;
-        }
         #region Constructor
 
-        public KRSDetailDao()
+        public KrsDetailDao()
         {
             this.MainDataSource = DataSource.University;
         }
@@ -32,9 +23,9 @@ namespace University.Dao.Training
 
         #region Abstract Class Implementation
 
-        protected override Mapper<KRSDetailDto> GetMapper()
+        protected override Mapper<KrsDetailDto> GetMapper()
         {
-            Mapper<KRSDetailDto> mapDto = new KRSDetailMappingDto();
+            Mapper<KrsDetailDto> mapDto = new KrsDetailMappingDto();
             return mapDto;
         }
 
@@ -42,33 +33,33 @@ namespace University.Dao.Training
 
         #region Save Data
 
-        public string ScriptInsert(KRSDetailDto obj)
+        public string ScriptInsert(KrsDetailDto obj)
         {
             List<string> lstField = new List<string>();
             lstField.Add("nim");
             lstField.Add("semester");
+            lstField.Add("line_no");
             lstField.Add("kode_matakuliah");
             lstField.Add("sks");
-            lstField.Add("line_no");
 
-            return this.GenerateStringInsert("KRSDetail", lstField, obj);
+            return this.GenerateStringInsert("KrsDetail", lstField, obj);
         }
 
-        public string ScriptUpdate(KRSDetailDto obj)
+        public string ScriptUpdate(KrsDetailDto obj)
         {
-    		List<string> lstField = new List<string>();
-    		lstField.Add("sks");
-    		lstField.Add("line_no");
+            List<string> lstField = new List<string>();
+            lstField.Add("kode_matakuliah");
+            lstField.Add("sks");
 
             List<string> lstCondition = new List<string>();
             lstCondition.Add("nim");
             lstCondition.Add("semester");
-            lstCondition.Add("kode_matakuliah");
+            lstCondition.Add("line_no");
 
-            return this.GenerateStringUpdate("KRSDetail", lstCondition, lstField, obj);
+            return this.GenerateStringUpdate("KrsDetail", lstCondition, lstField, obj);
         }
 
-        public string Save(KRSDetailDto obj)
+        public string Save(KrsDetailDto obj)
         {
             if (!IsExists(obj))
                 return ExecuteDbNonQuery(ScriptInsert(obj));
@@ -79,21 +70,44 @@ namespace University.Dao.Training
         #endregion
 
         #region Delete Data
+        public string DeleteList(List<KrsDetailDto> lst)
+        {
+            string strResult = string.Empty;
+            List<string> lstSql = new List<string>();
 
-        public string Delete(KRSDetailDto obj)
+            foreach (KrsDetailDto obj in lst)
+            {
+
+                List<string> lstCondition = new List<string>();
+                lstCondition.Add("nim");
+                lstCondition.Add("semester");
+                lstCondition.Add("line_no");
+
+                lstSql.Add(GenerateStringDelete("KrsDetail", lstCondition, obj));
+            }
+
+            strResult = ExecuteDbNonQueryTransaction(lstSql);
+
+            if (strResult == string.Empty)
+            {
+                KrsHeaderDao daokrsheader = new KrsHeaderDao();
+                strResult = daokrsheader.Calculate(new KrsHeaderDto()
+                {
+                    nim = lst[0].nim,
+                    semester = lst[0].semester,
+                });
+            }
+            return strResult;
+        }
+
+        public string Delete(KrsDetailDto obj)
         {
             List<string> lstCondition = new List<string>();
             lstCondition.Add("nim");
             lstCondition.Add("semester");
-            lstCondition.Add("kode_matakuliah");
+            lstCondition.Add("line_no");
 
-            string strSql = this.GenerateStringDelete("KRSDetail", lstCondition, obj);
-            return this.ExecuteDbNonQuery(strSql);
-        }
-
-        public string DeleteByNimSemester(string nim, string semester)
-        {
-            string strSql = "DELETE FROM KRSDetail WHERE nim = '" + nim.Trim() + "' AND semester = '" + semester.Trim() + "'";
+            string strSql = this.GenerateStringDelete("KrsDetail", lstCondition, obj);
             return this.ExecuteDbNonQuery(strSql);
         }
 
@@ -101,16 +115,16 @@ namespace University.Dao.Training
 
         #region Select Data
 
-        public bool IsExists(KRSDetailDto obj)
+        public bool IsExists(KrsDetailDto obj)
         {
             string strSql = "SELECT CASE WHEN EXISTS"
                             + " ("
                             + " SELECT * "
-                            + " FROM KRSDetail "
+                            + " FROM KrsDetail "
                             + " WHERE 1=1 "
-                            + " AND nim = '" + obj.nim.Trim() + "'"
-                            + " AND semester = '" + obj.semester.Trim() + "'"
-                            + " AND kode_matakuliah = '" + obj.kode_matakuliah.Trim() + "'"
+                            + " AND nim   = '" + obj.nim.Trim() + "'"
+                            + " AND semester   = " + obj.semester + ""
+                            + " AND line_no   = " + obj.line_no + ""
                             + " )"
                             + " THEN 1 ELSE 0 END"
                             + "";
@@ -132,121 +146,162 @@ namespace University.Dao.Training
             return true;
         }
 
-        public KRSDetailDto Get(KRSDetailDto obj)
+        public decimal getLineMax(KrsDetailDto obj)
         {
-            string strSql = @"SELECT 
-                A.nim,
-                A.semester,
-                A.kode_matakuliah,
-                B.nama_matakuliah,
-                A.sks,
-                A.line_no
-            FROM KRSDetail A
-            LEFT JOIN MataKuliah B ON A.kode_matakuliah = B.kode_matakuliah
-            WHERE A.nim = '" + obj.nim.Trim() + "' AND A.semester = '" + obj.semester.Trim() + "' AND A.kode_matakuliah = '" + obj.kode_matakuliah.Trim() + "'";
-            KRSDetailDto dto = this.ExecuteQueryOne(strSql);
+            string strSql = " SELECT MAX(line_no) "
+                            + " FROM KrsDetail "
+                            + " WHERE 1=1 "
+                            + " AND nim   = '" + obj.nim.Trim() + "'"
+                            + " AND semester   = " + obj.semester + ""
+                            + "";
+
+            Object _obj = this.ExecuteDbScalar(strSql);
+
+            if (_obj == DBNull.Value)
+            {
+                return 0;
+            }
+            else
+            {
+                if (Convert.ToInt32(_obj) == 0)
+                {
+                    return 0;
+                }
+            }
+
+            return Convert.ToDecimal(_obj);
+        }
+
+        public KrsDetailDto Get(KrsDetailDto obj)
+        {
+            List<string> lstField = new List<string>();
+            lstField.Add("nim");
+            lstField.Add("semester");
+            lstField.Add("line_no");
+            lstField.Add("kode_matakuliah");
+            lstField.Add("sks");
+
+            List<string> lstCondition = new List<string>();
+            lstCondition.Add("nim");
+            lstCondition.Add("semester");
+            lstCondition.Add("line_no");
+
+            string strSql = this.GenerateStringSelect("KrsDetail", lstCondition, lstField, obj);
+            KrsDetailDto dto = this.ExecuteQueryOne(strSql);
             return dto;
         }
 
-        public List<KRSDetailDto> GetList(KRSDetailDto obj)
+        public List<KrsDetailDto> GetList(KrsDetailDto obj)
         {
-            string strSql = @"SELECT 
-                A.nim,
-                A.semester,
-                A.kode_matakuliah,
-                B.nama_matakuliah,
-                A.sks,
-                A.line_no
-            FROM KRSDetail A
-            LEFT JOIN MataKuliah B ON A.kode_matakuliah = B.kode_matakuliah
-            WHERE 1=1 ";
+            string strSql = "SELECT "
+                        + "    nim  "
+                        + ",    semester  "
+                        + ",    line_no  "
+                        + ",    kode_matakuliah  "
+                        + ",    sks  "
+                        + " FROM KrsDetail "
+                        + " WHERE 1=1 ";
 
-            if (!string.IsNullOrEmpty(obj.nim))
+            if (obj.nim != null && obj.nim != String.Empty)
             {
-                strSql += " AND A.nim = '" + obj.nim.Trim() + "' ";
+                strSql += " AND nim   = '" + obj.nim.Trim() + "'";
             }
 
-            if (!string.IsNullOrEmpty(obj.semester))
+            if (obj.semester > 0)
             {
-                strSql += " AND A.semester = '" + obj.semester.Trim() + "' ";
+                strSql += " AND semester = " + obj.semester + "";
             }
 
-            if (!string.IsNullOrEmpty(obj.kode_matakuliah))
-            {
-                strSql += " AND A.kode_matakuliah = '" + obj.kode_matakuliah.Trim() + "' ";
-            }
 
-            strSql += " ORDER BY A.line_no ";
 
-            List<KRSDetailDto> dto = this.ExecuteQuery(strSql);
+            List<KrsDetailDto> dto = this.ExecuteQuery(strSql);
             return dto;
         }
 
-        public List<KRSDetailDto> GetListMataKuliah(KRSDetailDto obj)
+        public List<KrsDetailDto> GetListPaging(KrsDetailDto obj, int intPageNumber, int intPageSize, out int intTotalPage, out int intTotalRecord)
         {
-            string strSql = @"
-                SELECT 
-                    A.nim AS [nim]
-                    , A.semester AS [semester]
-                    , A.kode_matakuliah AS [kode_matakuliah]
-                    , C.nama_matakuliah AS [nama_matakuliah]
-                    , A.sks AS [sks]
-                FROM KRSDetail A
-                JOIN KRSHeader B ON 1=1
-                    AND B.nim = A.nim
-                    AND B.semester = A.semester
-                JOIN MataKuliah C ON 1=1
-                    AND C.kode_fakultas = B.kode_fakultas
-                    AND C.kode_jurusan = B.kode_jurusan
-                    AND C.kode_matakuliah = A.kode_matakuliah
-                WHERE 1=1 ";
+            string strSql = "SELECT "
+                        + "   nim  "
+                        + ",    semester  "
+                        + ",    line_no  "
+                        + ",    kode_matakuliah  "
+                        + ",    sks  "
+                        + " FROM KrsDetail "
+                        + " WHERE 1=1 ";
 
-            if (!string.IsNullOrEmpty(obj.nim))
+            if (obj.nim != null && obj.nim != String.Empty)
             {
-                strSql += " AND A.nim = '" + obj.nim.Trim() + "' ";
+                strSql += " AND nim   = '" + obj.nim.Trim() + "'";
             }
 
-            if (!string.IsNullOrEmpty(obj.semester))
+            if (obj.semester > 0)
             {
-                strSql += " AND A.semester = '" + obj.semester.Trim() + "' ";
+                strSql += " AND semester = " + obj.semester + "";
             }
 
-            List<KRSDetailDto> dto = this.ExecuteQuery(strSql);
+            if (obj.line_no > 0)
+            {
+                strSql += " AND line_no = " + obj.line_no + "";
+            }
+
+            List<KrsDetailDto> dto = this.ExecutePaging(strSql, "nim, semester , line_no", intPageNumber, intPageSize, out intTotalPage, out intTotalRecord);
             return dto;
         }
 
-        public List<KRSDetailDto> GetListPaging(KRSDetailDto obj, int intPageNumber, int intPageSize, out int intTotalPage, out int intTotalRecord)
+        public List<KrsDetailDto> GetListMataKuliah(KrsDetailDto obj)
         {
-            string strSql = @"SELECT 
-                A.nim,
-                A.semester,
-                A.kode_matakuliah,
-                B.nama_matakuliah,
-                A.sks,
-                A.line_no
-            FROM KRSDetail A
-            LEFT JOIN MataKuliah B ON A.kode_matakuliah = B.kode_matakuliah
-            WHERE 1=1 ";
+            string strSql = "SELECT "
+                         + "   A.NIM AS [nim],  "
+                         + "   A.Semester AS [semester],  "
+                         + "   A.Line_No AS line_no,  "
+                         + "   A.kode_matakuliah AS [kode_matakuliah],  "
+                         + "   B.nama_matakuliah AS [nama_matakuliah],  "
+                         + "   A.SKS AS [sks]  "
+                         + " FROM   KRSDetail A  "
+                         + "   JOIN matakuliah B on 1 = 1  "
+                         + "   AND B.Kode_Jurusan = '" + obj.kode_jurusan + "'  "
+                         + "   AND A.kode_matakuliah = B.kode_matakuliah "
+                         + " WHERE 1 = 1  ";
 
-            if (!string.IsNullOrEmpty(obj.nim))
+            if (obj.nim != null && obj.nim != String.Empty)
             {
-                strSql += " AND A.nim = '" + obj.nim.Trim() + "' ";
+                strSql += " AND nim   = '" + obj.nim.Trim() + "'";
             }
 
-            if (!string.IsNullOrEmpty(obj.semester))
+            if (obj.semester > 0)
             {
-                strSql += " AND A.semester = '" + obj.semester.Trim() + "' ";
+                strSql += " AND semester = " + obj.semester + "";
             }
 
-            if (!string.IsNullOrEmpty(obj.kode_matakuliah))
-            {
-                strSql += " AND A.kode_matakuliah = '" + obj.kode_matakuliah.Trim() + "' ";
-            }
-
-            List<KRSDetailDto> dto = this.ExecutePaging(strSql, "A.line_no", intPageNumber, intPageSize, out intTotalPage, out intTotalRecord);
+            List<KrsDetailDto> dto = this.ExecuteQuery(strSql);
             return dto;
         }
 
+
+        public DataTable GetDetailKrsDetail(KrsDetailDto obj)
+        {
+            string strSql = "SELECT "
+                            + "    nim  "
+                        + ",    semester  "
+                        + ",    kode_fakultas  "
+                        + ",    kode_jurusan  "
+                        + ",    total_sks  "
+                        + " FROM KrsDetail "
+                        + " WHERE 1=1 ";
+
+            if (obj.nim != null && obj.nim != String.Empty)
+            {
+                strSql += " AND nim   = '" + obj.nim.Trim() + "'";
+            }
+
+            if (obj.semester > 0)
+            {
+                strSql += " AND semester = " + obj.semester + "";
+            }
+
+            DataTable dto = this.ExecuteDataTable(strSql);
+            return dto;
+        }
         #endregion
     }
 }

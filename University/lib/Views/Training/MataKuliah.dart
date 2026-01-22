@@ -85,11 +85,7 @@ class MataKuliahState extends PageBase<MataKuliah> {
     param["jurusan"] = cbxKode_Jurusan.value.trim();
 
     ReportViewer.show(
-        context: context,
-        title: "Mata Kuliah",
-        entity: "PM030A",
-        param: param
-    );
+        context: context, title: "Mata Kuliah", entity: "PM030A", param: param);
   }
 
   void cbxKode_Fakultas_onChanged() {
@@ -99,7 +95,7 @@ class MataKuliahState extends PageBase<MataKuliah> {
       cbxKode_Jurusan.filter = "kode_fakultas = '${cbxKode_Fakultas.value}'";
       cbxKode_Jurusan.isRefresh = true;
     });
-    
+
     _tryGetData();
   }
 
@@ -112,8 +108,8 @@ class MataKuliahState extends PageBase<MataKuliah> {
   }
 
   void _tryGetData() {
-    if (cbxKode_Fakultas.value.isNotEmpty && 
-        cbxKode_Jurusan.value.isNotEmpty && 
+    if (cbxKode_Fakultas.value.isNotEmpty &&
+        cbxKode_Jurusan.value.isNotEmpty &&
         edtKode_MataKuliah.text.isNotEmpty) {
       getData();
     }
@@ -126,23 +122,23 @@ class MataKuliahState extends PageBase<MataKuliah> {
       MataKuliahDao dao = MataKuliahDao();
       MataKuliahDto obj = await dao.oneData(collectionInfo());
 
-      if (obj!=null) {
+      if (obj != null) {
         setState(() {
           cbxKode_Fakultas.value = obj.kode_fakultas;
           cbxKode_Fakultas.isRefresh = true;
-          
+
           // Set filter jurusan berdasarkan fakultas
           cbxKode_Jurusan.filter = "kode_fakultas = '${obj.kode_fakultas}'";
         });
-        
+
         // Delay untuk memastikan fakultas dan filter jurusan sudah terupdate
         await Future.delayed(const Duration(milliseconds: 100));
-        
+
         setState(() {
           cbxKode_Jurusan.value = obj.kode_jurusan;
           cbxKode_Jurusan.isRefresh = true;
         });
-        
+
         edtNama_MataKuliah.text = obj.nama_matakuliah;
         edtSKS.numericValue = obj.sks;
         chbRecordStatus.isChecked = (obj.record_status == 1 ? true : false);
@@ -236,24 +232,24 @@ class MataKuliahState extends PageBase<MataKuliah> {
           String kodeFakultas = map["Kode Fakultas"] ?? "";
           String kodeJurusan = map["Kode Jurusan"] ?? "";
           String kodeMatakuliah = map["Kode Matakuliah"] ?? "";
-          
+
           setState(() {
             // Set fakultas dulu
             cbxKode_Fakultas.value = kodeFakultas;
             cbxKode_Fakultas.isRefresh = true;
-            
+
             // Set filter jurusan berdasarkan fakultas
             cbxKode_Jurusan.filter = "kode_fakultas = '$kodeFakultas'";
           });
-          
+
           // Delay untuk memastikan fakultas sudah terupdate
           await Future.delayed(const Duration(milliseconds: 100));
-          
+
           setState(() {
             cbxKode_Jurusan.value = kodeJurusan;
             cbxKode_Jurusan.isRefresh = true;
           });
-          
+
           edtKode_MataKuliah.text = kodeMatakuliah;
 
           getData();

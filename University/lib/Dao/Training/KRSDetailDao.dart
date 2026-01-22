@@ -1,63 +1,50 @@
 import '../../Dao/Base/BaseDao.dart';
-import '../../Dto/Training/KRSDetailDto.dart';
+import '../../Dto/Training/KrsDetailDto.dart';
 
-class KRSDetailDao extends BaseDao {
-  Future<String> Save(KRSDetailDto obj) async {
-    try {
-      dynamic dto = await httpPost("api/KRSDetail/Save", obj);
+class KrsDetailDao extends BaseDao {
+  Future<String> Save(KrsDetailDto obj) async {
+    try{
+      dynamic dto = await httpPost("api/KrsDetail/Save", obj);
       return dto.toString();
-    } catch (ex) {
+    } catch(ex){
       rethrow;
     }
   }
 
-  Future<String> Delete(KRSDetailDto obj) async {
-    try {
-      dynamic dto = await httpPost("api/KRSDetail/Delete", obj);
+  Future<String> SaveHapus(List<KrsDetailDto> lst) async {
+    try{
+      dynamic dto = await httpPost("api/KrsDetail/SaveHapus", lst);
       return dto.toString();
-    } catch (ex) {
+    } catch(ex){
       rethrow;
     }
   }
 
-  Future<KRSDetailDto> oneData(KRSDetailDto obj) async {
-    try {
-      dynamic dto = await httpPost("api/KRSDetail/OneData", obj);
-      return KRSDetailDto.fromJson(dto);
-    } catch (ex) {
+  Future<KrsDetailDto> oneData(KrsDetailDto obj) async {
+    try{
+      dynamic dto = await httpPost("api/KrsDetail/OneData",obj);
+      return  KrsDetailDto.fromJson(dto);
+    } catch(ex){
       rethrow;
     }
   }
 
-  Future<List<KRSDetailDto>> getList(KRSDetailDto obj) async {
-    try {
-      Iterable list = await httpPost("api/KRSDetail/List", obj);
-      List<KRSDetailDto> lst =
-          list.map((model) => KRSDetailDto.fromJson(model)).toList();
+  Future<List<KrsDetailDto>> ListPaging(KrsDetailDto obj) async {
+    try{
+      Iterable list = await httpPost("api/KrsDetail/ListPaging", obj);
+      List<KrsDetailDto> lst = list.map((model) => KrsDetailDto.fromJson(model)).toList();
       return lst;
-    } catch (ex) {
+    } catch(ex){
       rethrow;
     }
   }
 
-  Future<List<KRSDetailDto>> listMataKuliah(KRSDetailDto obj) async {
-    try {
-      Iterable list = await httpPost("api/KRSDetail/ListMataKuliah", obj);
-      List<KRSDetailDto> lst =
-          list.map((model) => KRSDetailDto.fromJson(model)).toList();
+  Future<List<KrsDetailDto>> ListMatakuliah(KrsDetailDto obj) async {
+    try{
+      Iterable list = await httpPost("api/KrsDetail/ListMatakuliah", obj);
+      List<KrsDetailDto> lst = list.map((model) => KrsDetailDto.fromJson(model)).toList();
       return lst;
-    } catch (ex) {
-      rethrow;
-    }
-  }
-
-  Future<List<KRSDetailDto>> listPaging(KRSDetailDto obj) async {
-    try {
-      Iterable list = await httpPost("api/KRSDetail/ListPaging", obj);
-      List<KRSDetailDto> lst =
-          list.map((model) => KRSDetailDto.fromJson(model)).toList();
-      return lst;
-    } catch (ex) {
+    } catch(ex){
       rethrow;
     }
   }

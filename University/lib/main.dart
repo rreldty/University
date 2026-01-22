@@ -4,8 +4,9 @@ import 'package:university/Views/Xample/XM050A_UserGroup.dart';
 
 import 'Views/Training/Fakultas.dart';
 import 'Views/Training/Jurusan.dart';
-import 'Views/Training/KRSHeader.dart';
+import 'Views/Training/KrsHeader.dart';
 import 'Views/Training/MataKuliah.dart';
+import 'Views/Training/NilaiHeader.dart';
 
 void main() {
   runApp(const MyApp());
@@ -90,10 +91,24 @@ class HomePage extends StatelessWidget {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => KRSHeader()),
+                  MaterialPageRoute(builder: (context) => KrsHeader()),
                 );
               },
               child: const Text("KRS"),
+            ),
+          ),
+          SizedBox(
+            height: 10,
+          ),
+          Container(
+            child: ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => NilaiHeader()),
+                );
+              },
+              child: const Text("Nilai"),
             ),
           ),
         ],

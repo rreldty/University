@@ -293,9 +293,9 @@ namespace University.Service.Reports.ReportObjects {
             
             private global::System.Data.DataColumn columnNilai;
             
-            private global::System.Data.DataColumn columnKode_Mata_Kuliah;
+            private global::System.Data.DataColumn columnKode_Matakuliah;
             
-            private global::System.Data.DataColumn columnNama_Mata_Kuliah;
+            private global::System.Data.DataColumn columnNama_MataKuliah;
             
             private global::System.Data.DataColumn columnSkor;
             
@@ -390,17 +390,17 @@ namespace University.Service.Reports.ReportObjects {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public global::System.Data.DataColumn Kode_Mata_KuliahColumn {
+            public global::System.Data.DataColumn Kode_MatakuliahColumn {
                 get {
-                    return this.columnKode_Mata_Kuliah;
+                    return this.columnKode_Matakuliah;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public global::System.Data.DataColumn Nama_Mata_KuliahColumn {
+            public global::System.Data.DataColumn Nama_MataKuliahColumn {
                 get {
-                    return this.columnNama_Mata_Kuliah;
+                    return this.columnNama_MataKuliah;
                 }
             }
             
@@ -449,7 +449,7 @@ namespace University.Service.Reports.ReportObjects {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public dsDetailRow AdddsDetailRow(string NIM, decimal Semester, string Kode_Fakultas, string Nama_Fakultas, string Kode_Jurusan, string Nama_Jurusan, decimal Nilai, string Kode_Mata_Kuliah, string Nama_Mata_Kuliah, decimal Skor) {
+            public dsDetailRow AdddsDetailRow(string NIM, decimal Semester, string Kode_Fakultas, string Nama_Fakultas, string Kode_Jurusan, string Nama_Jurusan, decimal Nilai, string Kode_Matakuliah, string Nama_MataKuliah, decimal Skor) {
                 dsDetailRow rowdsDetailRow = ((dsDetailRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         NIM,
@@ -459,8 +459,8 @@ namespace University.Service.Reports.ReportObjects {
                         Kode_Jurusan,
                         Nama_Jurusan,
                         Nilai,
-                        Kode_Mata_Kuliah,
-                        Nama_Mata_Kuliah,
+                        Kode_Matakuliah,
+                        Nama_MataKuliah,
                         Skor};
                 rowdsDetailRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowdsDetailRow);
@@ -491,8 +491,8 @@ namespace University.Service.Reports.ReportObjects {
                 this.columnKode_Jurusan = base.Columns["Kode_Jurusan"];
                 this.columnNama_Jurusan = base.Columns["Nama_Jurusan"];
                 this.columnNilai = base.Columns["Nilai"];
-                this.columnKode_Mata_Kuliah = base.Columns["Kode_Mata_Kuliah"];
-                this.columnNama_Mata_Kuliah = base.Columns["Nama_Mata_Kuliah"];
+                this.columnKode_Matakuliah = base.Columns["Kode_Matakuliah"];
+                this.columnNama_MataKuliah = base.Columns["Nama_MataKuliah"];
                 this.columnSkor = base.Columns["Skor"];
             }
             
@@ -513,10 +513,10 @@ namespace University.Service.Reports.ReportObjects {
                 base.Columns.Add(this.columnNama_Jurusan);
                 this.columnNilai = new global::System.Data.DataColumn("Nilai", typeof(decimal), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnNilai);
-                this.columnKode_Mata_Kuliah = new global::System.Data.DataColumn("Kode_Mata_Kuliah", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnKode_Mata_Kuliah);
-                this.columnNama_Mata_Kuliah = new global::System.Data.DataColumn("Nama_Mata_Kuliah", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnNama_Mata_Kuliah);
+                this.columnKode_Matakuliah = new global::System.Data.DataColumn("Kode_Matakuliah", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnKode_Matakuliah);
+                this.columnNama_MataKuliah = new global::System.Data.DataColumn("Nama_MataKuliah", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnNama_MataKuliah);
                 this.columnSkor = new global::System.Data.DataColumn("Skor", typeof(decimal), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnSkor);
             }
@@ -773,33 +773,33 @@ namespace University.Service.Reports.ReportObjects {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public string Kode_Mata_Kuliah {
+            public string Kode_Matakuliah {
                 get {
                     try {
-                        return ((string)(this[this.tabledsDetail.Kode_Mata_KuliahColumn]));
+                        return ((string)(this[this.tabledsDetail.Kode_MatakuliahColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'Kode_Mata_Kuliah\' in table \'dsDetail\' is DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'Kode_Matakuliah\' in table \'dsDetail\' is DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tabledsDetail.Kode_Mata_KuliahColumn] = value;
+                    this[this.tabledsDetail.Kode_MatakuliahColumn] = value;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public string Nama_Mata_Kuliah {
+            public string Nama_MataKuliah {
                 get {
                     try {
-                        return ((string)(this[this.tabledsDetail.Nama_Mata_KuliahColumn]));
+                        return ((string)(this[this.tabledsDetail.Nama_MataKuliahColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'Nama_Mata_Kuliah\' in table \'dsDetail\' is DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'Nama_MataKuliah\' in table \'dsDetail\' is DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tabledsDetail.Nama_Mata_KuliahColumn] = value;
+                    this[this.tabledsDetail.Nama_MataKuliahColumn] = value;
                 }
             }
             
@@ -905,26 +905,26 @@ namespace University.Service.Reports.ReportObjects {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public bool IsKode_Mata_KuliahNull() {
-                return this.IsNull(this.tabledsDetail.Kode_Mata_KuliahColumn);
+            public bool IsKode_MatakuliahNull() {
+                return this.IsNull(this.tabledsDetail.Kode_MatakuliahColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public void SetKode_Mata_KuliahNull() {
-                this[this.tabledsDetail.Kode_Mata_KuliahColumn] = global::System.Convert.DBNull;
+            public void SetKode_MatakuliahNull() {
+                this[this.tabledsDetail.Kode_MatakuliahColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public bool IsNama_Mata_KuliahNull() {
-                return this.IsNull(this.tabledsDetail.Nama_Mata_KuliahColumn);
+            public bool IsNama_MataKuliahNull() {
+                return this.IsNull(this.tabledsDetail.Nama_MataKuliahColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public void SetNama_Mata_KuliahNull() {
-                this[this.tabledsDetail.Nama_Mata_KuliahColumn] = global::System.Convert.DBNull;
+            public void SetNama_MataKuliahNull() {
+                this[this.tabledsDetail.Nama_MataKuliahColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]

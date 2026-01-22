@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -5667,14 +5667,14 @@ namespace University.Dao.Entity
                     {
                         dtSource = DataSource.University;
 
-                        strSQL = "A.Kode_Fakultas AS [Kode Fakultas]"
-                            + " , A.Kode_Jurusan AS [Kode Jurusan]"
-                            + " , A.Nama_Jurusan AS [Nama Jurusan]"
-                            + " , B.nama_common AS [Record Status]"
-                            + " FROM Jurusan A"
-                            + " LEFT JOIN common B ON 1=1"
-                            + "     AND B.tipe_common = 'Record_Status'"
-                            + "     AND B.nilai_common = A.Record_Status"
+                        strSQL = "Kode_Jurusan AS [Kode Jurusan]"
+                            + " , Nama_Jurusan AS [Nama Jurusan]"
+                            + " , Kode_Fakultas AS [Kode Fakultas]"
+                            + " , ZRVANA AS [Record Status]"
+                            + " FROM Jurusan"
+                            + " LEFT JOIN ZVAR ON 1=1"
+                            + "     AND ZRVATY = 'RCST'"
+                            + "     AND ZRVAVL = Record_Status"
                             + "";
 
                         strSQLFilter = "";
@@ -5785,6 +5785,28 @@ namespace University.Dao.Entity
                         strSQLOrderBy = "";
                         //strDateColumn = "";
 
+                        break;
+                    }
+
+                case "MTKL-03":
+                    {
+                        dtSource = DataSource.University;
+                        strSQL = "A.kode_matakuliah AS [kode_matakuliah]"
+                            + ", C.nama_matakuliah AS [nama_matakuliah]"
+                            + ", C.sks AS [sks]"
+                            + " FROM krsdetail A"
+                            + " JOIN krsheader B ON 1=1"
+                            + "     AND B.nim = A.nim"
+                            + "     AND B.semester = A.semester"
+                            + " LEFT JOIN matakuliah C ON 1=1"
+                            + "     AND C.kode_fakultas = B.kode_fakultas"
+                            + "     AND C.kode_jurusan = B.kode_jurusan"
+                            + "     AND C.kode_matakuliah = A.kode_matakuliah"
+                            + "";
+                        strSQLFilter = "";
+                        strSQLGroup = "";
+                        strSQLOrderBy = "";
+                        strDecimalColumn = "2-Unit";
                         break;
                     }
 

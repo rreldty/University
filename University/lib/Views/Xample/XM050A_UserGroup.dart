@@ -145,9 +145,8 @@ class XM050A_UserGroupState extends PageBase<XM050A_UserGroup> {
         showModalProgress.value = true;
         try {
           ZUG1Dto objInfo = collectionInfo();
-          List<ZUG2Dto>? lstT = dgeUGNO.gridItem
-              .map((e) => ZUG2Dto.fromJson(e))
-              .toList();
+          List<ZUG2Dto>? lstT =
+              dgeUGNO.gridItem.map((e) => ZUG2Dto.fromJson(e)).toList();
           //objInfo.listZUG2 = lstT;
 
           ZUG1Dao dao = ZUG1Dao();
@@ -233,11 +232,10 @@ class XM050A_UserGroupState extends PageBase<XM050A_UserGroup> {
 
         try {
           List<ZUG2Dto> lstInfo = [];
-          List<ZUG2Dto>? lstT = dgeUGNO.gridItem
-              .map((e) => ZUG2Dto.fromJson(e))
-              .toList();
+          List<ZUG2Dto>? lstT =
+              dgeUGNO.gridItem.map((e) => ZUG2Dto.fromJson(e)).toList();
 
-          if(lstT.isNotEmpty) {
+          if (lstT.isNotEmpty) {
             for (int i = 0; i < lstT.length; i++) {
               ZUG2Dto objT = lstT[i];
               if (objT.IsSelected) {
@@ -246,9 +244,9 @@ class XM050A_UserGroupState extends PageBase<XM050A_UserGroup> {
             }
           }
 
-          if(lstInfo.isNotEmpty){
+          if (lstInfo.isNotEmpty) {
             strResult = "${lstInfo.length} selected";
-          }else{
+          } else {
             strResult = "Please select line";
           }
         } catch (ex) {
@@ -280,9 +278,9 @@ class XM050A_UserGroupState extends PageBase<XM050A_UserGroup> {
 
   void btnTest_Click() {
     setState(() {
-      if(dblGridWidth == 5000){
+      if (dblGridWidth == 5000) {
         dblGridWidth = 1000;
-      }else {
+      } else {
         dblGridWidth = 5000;
       }
     });
@@ -299,7 +297,7 @@ class XM050A_UserGroupState extends PageBase<XM050A_UserGroup> {
       ZUG1Dto objInfo = collectionInfo();
       ZUG1Dao dao = ZUG1Dao();
       ZUG1Dto? obj = await dao.oneData(objInfo);
-      if(obj != null){
+      if (obj != null) {
         setState(() {
           edtZGUGNA.text = obj.ZGUGNA;
           edtZGREMA.text = obj.ZGREMA;
@@ -315,20 +313,21 @@ class XM050A_UserGroupState extends PageBase<XM050A_UserGroup> {
     if (strResult.isNotEmpty) {
       await MessageBox.show(
           context: context, message: strResult, title: "Get Data");
-    }else{
+    } else {
       setState(() {
         dgeUGNO.isRefresh = true;
       });
     }
   }
 
-  Future<dynamic> getListUSNO(intPageNumber, intPageSize, strSqlFilter, strSqlSort) async {
+  Future<dynamic> getListUSNO(
+      intPageNumber, intPageSize, strSqlFilter, strSqlSort) async {
     debugPrint("getListUSNO");
     debugPrint("Where $strSqlFilter");
     debugPrint("Order By $strSqlSort");
 
     List<dynamic>? lst;
-    if(edtZGUGNO.text.isNotEmpty) {
+    if (edtZGUGNO.text.isNotEmpty) {
       ZUG2Dto objInfoG2 = ZUG2Dto(
         ZHUGNO: edtZGUGNO.text,
         PageNumber: intPageNumber,
@@ -371,7 +370,11 @@ class XM050A_UserGroupState extends PageBase<XM050A_UserGroup> {
       showModalProgress: showModalProgress,
       toolbar: Breadxcrumb(
         crumbItems: [
-          CrumbItem(label: "User Group", onTap: (){ navigateTo(XM050A_UserGroup.route); })
+          CrumbItem(
+              label: "User Group",
+              onTap: () {
+                navigateTo(XM050A_UserGroup.route);
+              })
         ],
       ),
       // toolbar: ToolbarBox(
@@ -407,167 +410,157 @@ class XM050A_UserGroupState extends PageBase<XM050A_UserGroup> {
                 4: FixedColumnWidth(500),
               },
               children: [
-                TableRow(
-                    children: [
-                      const LabelText(
-                        labelText: "UGNO",
-                        isMandatory: true,
+                TableRow(children: [
+                  const LabelText(
+                    labelText: "UGNO",
+                    isMandatory: true,
+                  ),
+                  EditText(
+                    controller: edtZGUGNO,
+                    textMode: TextInputType.text,
+                    isMandatory: true,
+                    //onLostFocus: edtZGUGNO_LostFocus,
+                    maxLength: 10,
+                  ),
+                  Container(),
+                  const LabelText(
+                    labelText: "REMA",
+                  ),
+                  EditText(
+                    controller: edtZGREMA,
+                    textMode: TextInputType.multiline,
+                  ),
+                ]),
+                TableRow(children: [
+                  const LabelText(
+                    labelText: "UGNA",
+                    isMandatory: true,
+                  ),
+                  EditText(
+                    controller: edtZGUGNA,
+                    textMode: TextInputType.text,
+                    isMandatory: true,
+                    maxLength: 60,
+                  ),
+                  Container(),
+                  const LabelText(
+                    labelText: "Radio Group Horizontal",
+                  ),
+                  RadioGroup(
+                    controller: rgpTestHorizontal,
+                    direction: Direction.Horizontal,
+                    onChange: (rowItem) {
+                      strS4RQBY = rowItem;
+                    },
+                    radioGroupList: [
+                      RadioListChild(name: "All", value: "2"),
+                      RadioListChild(name: "Active", value: "1"),
+                      RadioListChild(name: "Inactive", value: "0"),
+                    ],
+                  ),
+                ]),
+                TableRow(children: [
+                  const LabelText(
+                    labelText: "RCST",
+                  ),
+                  CheckboxExtender(
+                    controller: chbZGRCST,
+                    label: "Active",
+                    isChecked: true,
+                  ),
+                  Container(),
+                  const LabelText(
+                    labelText: "Radio Group Vertical",
+                  ),
+                  RadioGroup(
+                    controller: rgpTestVertical,
+                    direction: Direction.Vertical,
+                    initialValue: "Y",
+                    radioGroupList: [
+                      RadioListChild(
+                        name: "Year",
+                        value: "Y",
+                        child: ComboBox(
+                          controller: cbxYear,
+                          comboBoxType: ComboBoxType.Year,
+                        ),
+                        childPosition: ChildPosition.Right,
                       ),
-                      EditText(
-                        controller: edtZGUGNO,
-                        textMode: TextInputType.text,
-                        isMandatory: true,
-                        //onLostFocus: edtZGUGNO_LostFocus,
-                        maxLength: 10,
+                      RadioListChild(
+                        name: "Month",
+                        value: "M",
+                        child: ComboBox(
+                          controller: cbxMonth,
+                          comboBoxType: ComboBoxType.Month,
+                        ),
+                        childPosition: ChildPosition.Bottom,
                       ),
-                      Container(),
-                      const LabelText(
-                        labelText: "REMA",
-                      ),
-                      EditText(
-                        controller: edtZGREMA,
-                        textMode: TextInputType.multiline,
-                      ),
-                    ]
-                ),
-                TableRow(
-                    children: [
-                      const LabelText(
-                        labelText: "UGNA",
-                        isMandatory: true,
-                      ),
-                      EditText(
-                        controller: edtZGUGNA,
-                        textMode: TextInputType.text,
-                        isMandatory: true,
-                        maxLength: 60,
-                      ),
-                      Container(),
-                      const LabelText(
-                        labelText: "Radio Group Horizontal",
-                      ),
-                      RadioGroup(
-                        controller: rgpTestHorizontal,
+                      RadioListChild(name: "Day", value: "D"),
+                    ],
+                    onChange: (value) {
+                      setState(() {
+                        // debugPrint("RadioGroup - onChange value $value");
+                        switch (value) {
+                          case "A":
+                            {
+                              btnAddLine.isEnable = false;
+                              btnDeleteLine.isEnable = false;
+                              btnTest.isEnable = false;
+                              edtZGUGNA.isEnable = false;
+                              strDFVL_ITCE = value;
 
-                        direction: Direction.Horizontal,
-                        onChange: (rowItem) {
-                          strS4RQBY = rowItem;
-                        },
-                        radioGroupList: [
-                          RadioListChild(name: "All", value: "2"),
-                          RadioListChild(name: "Active", value: "1"),
-                          RadioListChild(name: "Inactive", value: "0"),
-                        ],
-                      ),
-                    ]
-                ),
-                TableRow(
-                    children: [
-                      const LabelText(
-                        labelText: "RCST",
-                      ),
-                      CheckboxExtender(
-                        controller: chbZGRCST,
-                        label: "Active",
-                        isChecked: true,
-                      ),
-                      Container(),
-                      const LabelText(
-                        labelText: "Radio Group Vertical",
-                      ),
-                      RadioGroup(
-                        controller: rgpTestVertical,
-                        direction: Direction.Vertical,
-                        initialValue: "Y",
-                        radioGroupList: [
-                          RadioListChild(
-                            name: "Year",
-                            value: "Y",
-                            child: ComboBox(
-                              controller: cbxYear,
-                              comboBoxType: ComboBoxType.Year,
-                            ),
-                            childPosition: ChildPosition.Right,
-                          ),
-                          RadioListChild(
-                            name: "Month",
-                            value: "M",
-                            child: ComboBox(
-                              controller: cbxMonth,
-                              comboBoxType: ComboBoxType.Month,
-                            ),
-                            childPosition: ChildPosition.Bottom,
-                          ),
-                          RadioListChild(
-                            name: "Day",
-                            value: "D"
-                          ),
-                        ],
-                        onChange: (value) {
-                          setState(() {
-                            // debugPrint("RadioGroup - onChange value $value");
-                            switch(value){
-                              case "A":{
-                                btnAddLine.isEnable = false;
-                                btnDeleteLine.isEnable = false;
-                                btnTest.isEnable = false;
-                                edtZGUGNA.isEnable = false;
-                                strDFVL_ITCE = value;
-
-                                break;
-                              }
-                              case "N":{
-                                btnAddLine.isEnable = true;
-                                btnDeleteLine.isEnable = false;
-                                btnTest.isEnable = false;
-                                edtZGUGNA.isEnable = false;
-                                strDFVL_ITCE = value;
-
-                                break;
-                              }
-                              case "S":{
-                                edtZGUGNA.isEnable = true;
-                                btnDeleteLine.isEnable = true;
-                                btnTest.isEnable = true;
-                                strDFVL_ITCE = value;
-
-                                break;
-                              }
+                              break;
                             }
-                            //btnTest.isEnable = !btnTest.isEnable;
-                          });
+                          case "N":
+                            {
+                              btnAddLine.isEnable = true;
+                              btnDeleteLine.isEnable = false;
+                              btnTest.isEnable = false;
+                              edtZGUGNA.isEnable = false;
+                              strDFVL_ITCE = value;
 
-                        },
-                      ),
-                    ]
-                ),
-                TableRow(
+                              break;
+                            }
+                          case "S":
+                            {
+                              edtZGUGNA.isEnable = true;
+                              btnDeleteLine.isEnable = true;
+                              btnTest.isEnable = true;
+                              strDFVL_ITCE = value;
+
+                              break;
+                            }
+                        }
+                        //btnTest.isEnable = !btnTest.isEnable;
+                      });
+                    },
+                  ),
+                ]),
+                TableRow(children: [
+                  const LabelText(
+                    labelText: "Date Range",
+                  ),
+                  Row(
                     children: [
-                      const LabelText(
-                        labelText: "Date Range",
+                      DateBox(
+                        controller: dtbDateFrom,
                       ),
-                      Row(
-                        children: [
-                          DateBox(
-                            controller: dtbDateFrom,
-                          ),
-                          Container(
-                            margin: const EdgeInsets.only(left:5),
-                            child: const LabelText(
-                              labelText: "to",
-                              width: 20,
-                            ),
-                          ),
-                          DateBox(
-                            controller: dtbDateTo,
-                          ),
-                        ],
+                      Container(
+                        margin: const EdgeInsets.only(left: 5),
+                        child: const LabelText(
+                          labelText: "to",
+                          width: 20,
+                        ),
                       ),
-                      Container(),
-                      Container(),
-                      Container(),
-                    ]
-                ),
+                      DateBox(
+                        controller: dtbDateTo,
+                      ),
+                    ],
+                  ),
+                  Container(),
+                  Container(),
+                  Container(),
+                ]),
               ],
             ),
             DataGridExtender(
@@ -586,11 +579,13 @@ class XM050A_UserGroupState extends PageBase<XM050A_UserGroup> {
               isSubTotalVisible: true,
               height: 400,
               // isListView: true,
-              onAfterRefresh: (){
+              onAfterRefresh: () {
                 showModalProgress.value = false;
               },
               popupMenuItems: const [
-                PopupMenuItem(child: Text("Action 1"),),
+                PopupMenuItem(
+                  child: Text("Action 1"),
+                ),
                 PopupMenuItem(child: Text("Action 2")),
                 PopupMenuItem(child: Text("Action 3")),
               ],
@@ -851,7 +846,6 @@ class XM050A_UserGroupState extends PageBase<XM050A_UserGroup> {
               ],
             ),
           ],
-
         );
       },
       builderPhone: (context, constraints) {
@@ -866,173 +860,157 @@ class XM050A_UserGroupState extends PageBase<XM050A_UserGroup> {
                 1: FixedColumnWidth(350),
               },
               children: [
-                TableRow(
-                    children: [
-                      const LabelText(
-                        labelText: "UGNO",
-                        isMandatory: true,
+                TableRow(children: [
+                  const LabelText(
+                    labelText: "UGNO",
+                    isMandatory: true,
+                  ),
+                  EditText(
+                    controller: edtZGUGNO,
+                    textMode: TextInputType.text,
+                    isMandatory: true,
+                    //onLostFocus: edtZGUGNO_LostFocus,
+                    maxLength: 10,
+                  ),
+                ]),
+                TableRow(children: [
+                  const LabelText(
+                    labelText: "REMA",
+                  ),
+                  EditText(
+                    controller: edtZGREMA,
+                    textMode: TextInputType.multiline,
+                  ),
+                ]),
+                TableRow(children: [
+                  const LabelText(
+                    labelText: "Radio Group Horizontal",
+                  ),
+                  RadioGroup(
+                    controller: rgpTestHorizontal,
+                    direction: Direction.Horizontal,
+                    onChange: (rowItem) {
+                      strS4RQBY = rowItem;
+                    },
+                    radioGroupList: [
+                      RadioListChild(name: "All", value: "2"),
+                      RadioListChild(name: "Active", value: "1"),
+                      RadioListChild(name: "Inactive", value: "0"),
+                    ],
+                  ),
+                ]),
+                TableRow(children: [
+                  const LabelText(
+                    labelText: "UGNA",
+                    isMandatory: true,
+                  ),
+                  EditText(
+                    controller: edtZGUGNA,
+                    textMode: TextInputType.text,
+                    isMandatory: true,
+                    maxLength: 60,
+                  ),
+                ]),
+                TableRow(children: [
+                  const LabelText(
+                    labelText: "RCST",
+                  ),
+                  CheckboxExtender(
+                    controller: chbZGRCST,
+                    label: "Active",
+                    isChecked: true,
+                  ),
+                ]),
+                TableRow(children: [
+                  const LabelText(
+                    labelText: "Radio Group Vertical",
+                  ),
+                  RadioGroup(
+                    controller: rgpTestVertical,
+                    direction: Direction.Vertical,
+                    initialValue: "Y",
+                    radioGroupList: [
+                      RadioListChild(
+                        name: "Year",
+                        value: "Y",
+                        child: ComboBox(
+                          controller: cbxYear,
+                          comboBoxType: ComboBoxType.Year,
+                        ),
+                        childPosition: ChildPosition.Right,
                       ),
-                      EditText(
-                        controller: edtZGUGNO,
-                        textMode: TextInputType.text,
-                        isMandatory: true,
-                        //onLostFocus: edtZGUGNO_LostFocus,
-                        maxLength: 10,
+                      RadioListChild(
+                        name: "Month",
+                        value: "M",
+                        child: ComboBox(
+                          controller: cbxMonth,
+                          comboBoxType: ComboBoxType.Month,
+                        ),
+                        childPosition: ChildPosition.Bottom,
                       ),
-                    ]
-                ),
-                TableRow(
-                    children: [
-                      const LabelText(
-                        labelText: "REMA",
-                      ),
-                      EditText(
-                        controller: edtZGREMA,
-                        textMode: TextInputType.multiline,
-                      ),
-                    ]
-                ),
-                TableRow(
-                    children: [
-                      const LabelText(
-                        labelText: "Radio Group Horizontal",
-                      ),
-                      RadioGroup(
-                        controller: rgpTestHorizontal,
+                      RadioListChild(name: "Day", value: "D"),
+                    ],
+                    onChange: (value) {
+                      setState(() {
+                        // debugPrint("RadioGroup - onChange value $value");
+                        switch (value) {
+                          case "A":
+                            {
+                              btnAddLine.isEnable = false;
+                              btnDeleteLine.isEnable = false;
+                              btnTest.isEnable = false;
+                              edtZGUGNA.isEnable = false;
+                              strDFVL_ITCE = value;
 
-                        direction: Direction.Horizontal,
-                        onChange: (rowItem) {
-                          strS4RQBY = rowItem;
-                        },
-                        radioGroupList: [
-                          RadioListChild(name: "All", value: "2"),
-                          RadioListChild(name: "Active", value: "1"),
-                          RadioListChild(name: "Inactive", value: "0"),
-                        ],
-                      ),
-                    ]
-                ),
-                TableRow(
-                    children: [
-                      const LabelText(
-                        labelText: "UGNA",
-                        isMandatory: true,
-                      ),
-                      EditText(
-                        controller: edtZGUGNA,
-                        textMode: TextInputType.text,
-                        isMandatory: true,
-                        maxLength: 60,
-                      ),
-                    ]
-                ),
-                TableRow(
-                    children: [
-                      const LabelText(
-                        labelText: "RCST",
-                      ),
-                      CheckboxExtender(
-                        controller: chbZGRCST,
-                        label: "Active",
-                        isChecked: true,
-                      ),
-                    ]
-                ),
-                TableRow(
-                    children: [
-                      const LabelText(
-                        labelText: "Radio Group Vertical",
-                      ),
-                      RadioGroup(
-                        controller: rgpTestVertical,
-                        direction: Direction.Vertical,
-                        initialValue: "Y",
-                        radioGroupList: [
-                          RadioListChild(
-                            name: "Year",
-                            value: "Y",
-                            child: ComboBox(
-                              controller: cbxYear,
-                              comboBoxType: ComboBoxType.Year,
-                            ),
-                            childPosition: ChildPosition.Right,
-                          ),
-                          RadioListChild(
-                            name: "Month",
-                            value: "M",
-                            child: ComboBox(
-                              controller: cbxMonth,
-                              comboBoxType: ComboBoxType.Month,
-                            ),
-                            childPosition: ChildPosition.Bottom,
-                          ),
-                          RadioListChild(
-                              name: "Day",
-                              value: "D"
-                          ),
-                        ],
-                        onChange: (value) {
-                          setState(() {
-                            // debugPrint("RadioGroup - onChange value $value");
-                            switch(value){
-                              case "A":{
-                                btnAddLine.isEnable = false;
-                                btnDeleteLine.isEnable = false;
-                                btnTest.isEnable = false;
-                                edtZGUGNA.isEnable = false;
-                                strDFVL_ITCE = value;
-
-                                break;
-                              }
-                              case "N":{
-                                btnAddLine.isEnable = true;
-                                btnDeleteLine.isEnable = false;
-                                btnTest.isEnable = false;
-                                edtZGUGNA.isEnable = false;
-                                strDFVL_ITCE = value;
-
-                                break;
-                              }
-                              case "S":{
-                                edtZGUGNA.isEnable = true;
-                                btnDeleteLine.isEnable = true;
-                                btnTest.isEnable = true;
-                                strDFVL_ITCE = value;
-
-                                break;
-                              }
+                              break;
                             }
-                            //btnTest.isEnable = !btnTest.isEnable;
-                          });
+                          case "N":
+                            {
+                              btnAddLine.isEnable = true;
+                              btnDeleteLine.isEnable = false;
+                              btnTest.isEnable = false;
+                              edtZGUGNA.isEnable = false;
+                              strDFVL_ITCE = value;
 
-                        },
-                      ),
-                    ]
-                ),
-                TableRow(
+                              break;
+                            }
+                          case "S":
+                            {
+                              edtZGUGNA.isEnable = true;
+                              btnDeleteLine.isEnable = true;
+                              btnTest.isEnable = true;
+                              strDFVL_ITCE = value;
+
+                              break;
+                            }
+                        }
+                        //btnTest.isEnable = !btnTest.isEnable;
+                      });
+                    },
+                  ),
+                ]),
+                TableRow(children: [
+                  const LabelText(
+                    labelText: "Date Range",
+                  ),
+                  Row(
                     children: [
-                      const LabelText(
-                        labelText: "Date Range",
+                      DateBox(
+                        controller: dtbDateFrom,
                       ),
-                      Row(
-                        children: [
-                          DateBox(
-                            controller: dtbDateFrom,
-                          ),
-                          Container(
-                            margin: const EdgeInsets.only(left:5),
-                            child: const LabelText(
-                              labelText: "to",
-                              width: 20,
-                            ),
-                          ),
-                          DateBox(
-                            controller: dtbDateTo,
-                          ),
-                        ],
+                      Container(
+                        margin: const EdgeInsets.only(left: 5),
+                        child: const LabelText(
+                          labelText: "to",
+                          width: 20,
+                        ),
                       ),
-                    ]
-                ),
+                      DateBox(
+                        controller: dtbDateTo,
+                      ),
+                    ],
+                  ),
+                ]),
               ],
             ),
             DataListExtender(
@@ -1051,11 +1029,13 @@ class XM050A_UserGroupState extends PageBase<XM050A_UserGroup> {
               isSubTotalVisible: true,
               height: 400,
               // isListView: true,
-              onAfterRefresh: (){
+              onAfterRefresh: () {
                 showModalProgress.value = false;
               },
               popupMenuItems: const [
-                PopupMenuItem(child: Text("Action 1"),),
+                PopupMenuItem(
+                  child: Text("Action 1"),
+                ),
                 PopupMenuItem(child: Text("Action 2")),
                 PopupMenuItem(child: Text("Action 3")),
               ],
@@ -1316,7 +1296,6 @@ class XM050A_UserGroupState extends PageBase<XM050A_UserGroup> {
               ],
             ),
           ],
-
         );
       },
     );

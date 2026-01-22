@@ -6,13 +6,13 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>2.5cm</Width>
+              <Width>3.91817cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>2.5cm</Width>
+              <Width>4.151cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>2.5cm</Width>
+              <Width>2.53749cm</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
@@ -29,7 +29,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Kode Mata Kuliah</Value>
-                              <Style />
+                              <Style>
+                                <FontFamily>Lucida Console</FontFamily>
+                                <FontSize>9pt</FontSize>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -59,7 +62,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Nama Mata Kuliah</Value>
-                              <Style />
+                              <Style>
+                                <FontFamily>Lucida Console</FontFamily>
+                                <FontSize>9pt</FontSize>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -89,7 +95,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Skor</Value>
-                              <Style />
+                              <Style>
+                                <FontFamily>Lucida Console</FontFamily>
+                                <FontSize>9pt</FontSize>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -124,7 +133,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>=Fields!Kode_Mata_Kuliah.Value</Value>
-                              <Style />
+                              <Style>
+                                <FontFamily>Lucida Console</FontFamily>
+                                <FontSize>9pt</FontSize>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -154,7 +166,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>=Fields!Nama_Mata_Kuliah.Value</Value>
-                              <Style />
+                              <Style>
+                                <FontFamily>Lucida Console</FontFamily>
+                                <FontSize>9pt</FontSize>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -184,7 +199,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>=Fields!Skor.Value</Value>
-                              <Style />
+                              <Style>
+                                <FontFamily>Lucida Console</FontFamily>
+                                <FontSize>9pt</FontSize>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -226,10 +244,10 @@
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>dsDetail</DataSetName>
-        <Top>2.19012cm</Top>
-        <Left>3.73086cm</Left>
+        <Top>0.50398cm</Top>
+        <Left>1.63536cm</Left>
         <Height>1.2cm</Height>
-        <Width>7.5cm</Width>
+        <Width>10.60666cm</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -237,13 +255,13 @@
         </Style>
       </Tablix>
     </ReportItems>
-    <Height>2in</Height>
+    <Height>0.74167in</Height>
     <Style />
   </Body>
-  <Width>8.04067in</Width>
+  <Width>9.08135in</Width>
   <Page>
     <PageHeader>
-      <Height>2.98725cm</Height>
+      <Height>5.42142cm</Height>
       <PrintOnFirstPage>true</PrintOnFirstPage>
       <PrintOnLastPage>true</PrintOnLastPage>
       <ReportItems>
@@ -279,6 +297,8 @@
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>Textbox1</rd:DefaultName>
+          <Top>0.0732in</Top>
+          <Left>0.64384in</Left>
           <Height>1.87cm</Height>
           <Width>7.58cm</Width>
           <Style>
@@ -311,7 +331,8 @@
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>Textbox5</rd:DefaultName>
-          <Left>9.8425cm</Left>
+          <Top>0.8372in</Top>
+          <Left>1.63536cm</Left>
           <Height>0.6cm</Height>
           <Width>10.57127cm</Width>
           <ZIndex>1</ZIndex>
@@ -339,8 +360,8 @@
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>Textbox6</rd:DefaultName>
-          <Top>0.64283cm</Top>
-          <Left>9.8425cm</Left>
+          <Top>2.90286cm</Top>
+          <Left>1.63536cm</Left>
           <Height>0.45cm</Height>
           <Width>2.3095cm</Width>
           <ZIndex>2</ZIndex>
@@ -375,8 +396,8 @@
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>Textbox6</rd:DefaultName>
-          <Top>0.64283cm</Top>
-          <Left>12.46113cm</Left>
+          <Top>2.90286cm</Top>
+          <Left>4.28102cm</Left>
           <Height>0.45cm</Height>
           <Width>7.961cm</Width>
           <ZIndex>3</ZIndex>
@@ -404,8 +425,8 @@
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>Textbox6</rd:DefaultName>
-          <Top>0.64283cm</Top>
-          <Left>12.17538cm</Left>
+          <Top>2.90286cm</Top>
+          <Left>3.96824cm</Left>
           <Height>0.45cm</Height>
           <Width>0.2775cm</Width>
           <ZIndex>4</ZIndex>
@@ -433,8 +454,8 @@
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>Textbox6</rd:DefaultName>
-          <Top>1.11908cm</Top>
-          <Left>9.8425cm</Left>
+          <Top>3.37911cm</Top>
+          <Left>1.63536cm</Left>
           <Height>0.45cm</Height>
           <Width>2.3095cm</Width>
           <ZIndex>5</ZIndex>
@@ -469,8 +490,8 @@
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>Textbox6</rd:DefaultName>
-          <Top>1.11908cm</Top>
-          <Left>12.46113cm</Left>
+          <Top>3.37911cm</Top>
+          <Left>4.25399cm</Left>
           <Height>0.45cm</Height>
           <Width>7.961cm</Width>
           <ZIndex>6</ZIndex>
@@ -498,8 +519,8 @@
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>Textbox6</rd:DefaultName>
-          <Top>1.11908cm</Top>
-          <Left>12.17538cm</Left>
+          <Top>3.37911cm</Top>
+          <Left>3.96824cm</Left>
           <Height>0.45cm</Height>
           <Width>0.2775cm</Width>
           <ZIndex>7</ZIndex>
@@ -527,8 +548,8 @@
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>Textbox6</rd:DefaultName>
-          <Top>1.60592cm</Top>
-          <Left>9.8425cm</Left>
+          <Top>3.86595cm</Top>
+          <Left>1.63536cm</Left>
           <Height>0.45cm</Height>
           <Width>2.3095cm</Width>
           <ZIndex>8</ZIndex>
@@ -565,8 +586,8 @@
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>Textbox6</rd:DefaultName>
-          <Top>1.60592cm</Top>
-          <Left>12.46113cm</Left>
+          <Top>3.86595cm</Top>
+          <Left>4.25399cm</Left>
           <Height>0.45cm</Height>
           <Width>7.961cm</Width>
           <ZIndex>9</ZIndex>
@@ -594,8 +615,8 @@
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>Textbox6</rd:DefaultName>
-          <Top>1.60592cm</Top>
-          <Left>12.17538cm</Left>
+          <Top>3.86595cm</Top>
+          <Left>3.96824cm</Left>
           <Height>0.45cm</Height>
           <Width>0.2775cm</Width>
           <ZIndex>10</ZIndex>
@@ -623,8 +644,8 @@
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>Textbox6</rd:DefaultName>
-          <Top>2.08217cm</Top>
-          <Left>9.8425cm</Left>
+          <Top>4.3422cm</Top>
+          <Left>1.63536cm</Left>
           <Height>0.45cm</Height>
           <Width>2.3095cm</Width>
           <ZIndex>11</ZIndex>
@@ -661,8 +682,8 @@
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>Textbox6</rd:DefaultName>
-          <Top>2.08217cm</Top>
-          <Left>12.46113cm</Left>
+          <Top>4.3422cm</Top>
+          <Left>4.25399cm</Left>
           <Height>0.45cm</Height>
           <Width>7.961cm</Width>
           <ZIndex>12</ZIndex>
@@ -690,8 +711,8 @@
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>Textbox6</rd:DefaultName>
-          <Top>2.08217cm</Top>
-          <Left>12.17538cm</Left>
+          <Top>4.3422cm</Top>
+          <Left>3.96824cm</Left>
           <Height>0.45cm</Height>
           <Width>0.2775cm</Width>
           <ZIndex>13</ZIndex>
@@ -719,8 +740,8 @@
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>Textbox6</rd:DefaultName>
-          <Top>2.569cm</Top>
-          <Left>9.84367cm</Left>
+          <Top>4.82903cm</Top>
+          <Left>1.63653cm</Left>
           <Height>0.41825cm</Height>
           <Width>2.3095cm</Width>
           <ZIndex>14</ZIndex>
@@ -755,8 +776,8 @@
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>Textbox6</rd:DefaultName>
-          <Top>2.569cm</Top>
-          <Left>12.4623cm</Left>
+          <Top>4.82903cm</Top>
+          <Left>4.25516cm</Left>
           <Height>0.41825cm</Height>
           <Width>7.961cm</Width>
           <ZIndex>15</ZIndex>
@@ -784,8 +805,8 @@
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>Textbox6</rd:DefaultName>
-          <Top>2.569cm</Top>
-          <Left>12.17655cm</Left>
+          <Top>4.82903cm</Top>
+          <Left>3.96941cm</Left>
           <Height>0.41825cm</Height>
           <Width>0.2775cm</Width>
           <ZIndex>16</ZIndex>
@@ -814,7 +835,7 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>Print Date: </Value>
+                  <Value>="Print Date : " &amp; Format(Globals!ExecutionTime, "dd-MM-yyyy HH:mm:ss") &amp; "   Print By : Farrel Aditya"</Value>
                   <Style>
                     <FontStyle>Normal</FontStyle>
                     <FontFamily>Lucida Console</FontFamily>

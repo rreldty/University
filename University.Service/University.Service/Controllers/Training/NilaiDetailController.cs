@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,17 +16,17 @@ using University.Dto.Training;
 
 namespace University.Api.Controllers.Training
 {
-    //[Authorize]
-    public class KrsDetailController : BaseApiController<KrsDetailDto>
+    public class NilaiDetailController : BaseApiController<NilaiDetailDto>
     {
-        [Route("api/KrsDetail/Save")]
-        public HttpResponseMessage Save([FromBody] KrsDetailDto objInfo)
+        [HttpPost]
+        [Route("api/NilaiDetail/Save")]
+        public HttpResponseMessage Save([FromBody] NilaiDetailDto objInfo)
         {
             string strResult = string.Empty;
 
             try
             {
-                KrsDetailDao dao = new KrsDetailDao();
+                NilaiDetailDao dao = new NilaiDetailDao();
                 strResult = dao.Save(objInfo);
             }
             catch (Exception ex)
@@ -37,15 +37,16 @@ namespace University.Api.Controllers.Training
             return CreateHttpResponse(strResult);
         }
 
-        [Route("api/KrsDetail/SaveHapus")]
-        public HttpResponseMessage SaveHapus([FromBody] List<KrsDetailDto> lst)
+        [HttpPost]
+        [Route("api/NilaiDetail/Delete")]
+        public HttpResponseMessage Delete([FromBody] NilaiDetailDto objInfo)
         {
             string strResult = string.Empty;
 
             try
             {
-                KrsDetailDao dao = new KrsDetailDao();
-                strResult = dao.DeleteList(lst);
+                NilaiDetailDao dao = new NilaiDetailDao();
+                strResult = dao.Delete(objInfo);
             }
             catch (Exception ex)
             {
@@ -55,15 +56,16 @@ namespace University.Api.Controllers.Training
             return CreateHttpResponse(strResult);
         }
 
-        [Route("api/KrsDetail/OneData")]
-        public HttpResponseMessage OneData([FromBody] KrsDetailDto objInfo)
+        [HttpPost]
+        [Route("api/NilaiDetail/OneData")]
+        public HttpResponseMessage OneData([FromBody] NilaiDetailDto objInfo)
         {
-            KrsDetailDto objResult = null;
+            NilaiDetailDto objResult = null;
             string strResult = string.Empty;
 
             try
             {
-                KrsDetailDao dao = new KrsDetailDao();
+                NilaiDetailDao dao = new NilaiDetailDao();
                 objResult = dao.Get(objInfo);
             }
             catch (Exception ex)
@@ -74,18 +76,39 @@ namespace University.Api.Controllers.Training
             return CreateHttpResponse(strResult, objResult);
         }
 
-        [Route("api/KrsDetail/ListPaging")]
-        public HttpResponseMessage ListPaging([FromBody] KrsDetailDto objInfo)
+        [HttpPost]
+        [Route("api/NilaiDetail/List")]
+        public HttpResponseMessage List([FromBody] NilaiDetailDto objInfo)
         {
-            int intTotalPage = 0;
-            int intTotalRecord = 0;
-
-            List<KrsDetailDto> lst = null;
+            List<NilaiDetailDto> lst = null;
             string strResult = string.Empty;
 
             try
             {
-                KrsDetailDao dao = new KrsDetailDao();
+                NilaiDetailDao dao = new NilaiDetailDao();
+                lst = dao.GetList(objInfo);
+            }
+            catch (Exception ex)
+            {
+                strResult = ex.Message;
+            }
+
+            return CreateHttpResponse(strResult, lst);
+        }
+
+        [HttpPost]
+        [Route("api/NilaiDetail/ListPaging")]
+        public HttpResponseMessage ListPaging([FromBody] NilaiDetailDto objInfo)
+        {
+            int intTotalPage = 0;
+            int intTotalRecord = 0;
+
+            List<NilaiDetailDto> lst = null;
+            string strResult = string.Empty;
+
+            try
+            {
+                NilaiDetailDao dao = new NilaiDetailDao();
                 lst = dao.GetListPaging(objInfo, objInfo.PageNumber, objInfo.PageSize, out intTotalPage, out intTotalRecord);
             }
             catch (Exception ex)
@@ -96,16 +119,18 @@ namespace University.Api.Controllers.Training
             return CreateHttpResponse(strResult, lst, intTotalPage, intTotalRecord);
         }
 
-        [Route("api/KrsDetail/ListMatakuliah")]
-        public HttpResponseMessage ListMatakuliah([FromBody] KrsDetailDto objInfo)
+        [HttpPost]
+        [Route("api/NilaiDetail/GetListMataKuliah")]
+        public HttpResponseMessage GetListMataKuliah([FromBody] NilaiDetailDto objInfo)
         {
-            List<KrsDetailDto> lst = null;
+            List<NilaiDetailDto> lst = null;
             string strResult = string.Empty;
 
             try
             {
-                KrsDetailDao dao = new KrsDetailDao();
-                lst = dao.GetListMataKuliah(objInfo);
+                NilaiDetailDao dao = new NilaiDetailDao();
+                // Assuming kode_jurusan is passed in a field - we need to add this to DTO
+                lst = dao.GetListMataKuliah(objInfo.nim, objInfo.semester, objInfo.kode_jurusan);
             }
             catch (Exception ex)
             {
@@ -114,7 +139,5 @@ namespace University.Api.Controllers.Training
 
             return CreateHttpResponse(strResult, lst);
         }
-
-
     }
 }

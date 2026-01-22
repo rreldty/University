@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Data.Common;
 using System.Collections.Generic;
 using System.Text;
@@ -10,11 +10,11 @@ using University.Dto.Training;
 
 namespace University.Dao.Training
 {
-    public class KRSHeaderDao : BaseDao<KRSHeaderDto>
+    public class KrsHeaderDao : BaseDao<KrsHeaderDto>
     {
         #region Constructor
 
-        public KRSHeaderDao()
+        public KrsHeaderDao()
         {
             this.MainDataSource = DataSource.University;
         }
@@ -23,9 +23,9 @@ namespace University.Dao.Training
 
         #region Abstract Class Implementation
 
-        protected override Mapper<KRSHeaderDto> GetMapper()
+        protected override Mapper<KrsHeaderDto> GetMapper()
         {
-            Mapper<KRSHeaderDto> mapDto = new KRSHeaderMappingDto();
+            Mapper<KrsHeaderDto> mapDto = new KrsHeaderMappingDto();
             return mapDto;
         }
 
@@ -33,7 +33,7 @@ namespace University.Dao.Training
 
         #region Save Data
 
-        public string ScriptInsert(KRSHeaderDto     obj)
+        public string ScriptInsert(KrsHeaderDto obj)
         {
             List<string> lstField = new List<string>();
             lstField.Add("nim");
@@ -42,10 +42,10 @@ namespace University.Dao.Training
             lstField.Add("kode_jurusan");
             lstField.Add("total_sks");
 
-            return this.GenerateStringInsert("KRSHeader", lstField, obj);
+            return this.GenerateStringInsert("krsheader", lstField, obj);
         }
 
-        public string ScriptUpdate(KRSHeaderDto obj)
+        public string ScriptUpdate(KrsHeaderDto obj)
         {
             List<string> lstField = new List<string>();
             lstField.Add("kode_fakultas");
@@ -56,82 +56,74 @@ namespace University.Dao.Training
             lstCondition.Add("nim");
             lstCondition.Add("semester");
 
-            return this.GenerateStringUpdate("KRSHeader", lstCondition, lstField, obj);
+            return this.GenerateStringUpdate("krsheader", lstCondition, lstField, obj);
         }
 
-        public string Save(KRSHeaderDto obj)
+        public string Save(KrsHeaderDto obj)
         {
-            string strResult = string.Empty;
+            KrsDetailDao dao = new KrsDetailDao();
             List<string> lstSql = new List<string>();
+            string strResult = string.Empty;
 
-            KRSDetailDao dao = new KRSDetailDao();
-            KRSDetailDto objLine = obj.objLine;
-
+            //insert Header
             if (!IsExists(obj))
-            {
                 lstSql.Add(ScriptInsert(obj));
-            }
             else
-            {
                 lstSql.Add(ScriptUpdate(obj));
-            }
 
-            // Otomatis generate line_no jika 0
-            if (objLine != null)
+            //insert Detail 
+            if (obj.objKrsDetail != null)
             {
-                if (objLine.line_no == 0)
+                if (!dao.IsExists(obj.objKrsDetail))
                 {
-                    objLine.line_no = dao.GetNextLineNo(objLine.nim, objLine.semester);
+                    if (obj.objKrsDetail.line_no == 0)
+                    {
+                        obj.objKrsDetail.line_no = dao.getLineMax(obj.objKrsDetail) + 1;
+                    }
+
+                    lstSql.Add(dao.ScriptInsert(obj.objKrsDetail));
                 }
-                // Gunakan Save agar insert/update otomatis
-                if (!dao.IsExists(objLine))
-                    lstSql.Add(dao.ScriptInsert(objLine));
                 else
-                    lstSql.Add(dao.ScriptUpdate(objLine));
+                {
+                    lstSql.Add(dao.ScriptUpdate(obj.objKrsDetail));
+                }
+
             }
 
-            strResult = ExecuteDbNonQueryTransaction(lstSql);
+            strResult = this.ExecuteDbNonQueryTransaction(lstSql);
 
-            if (strResult == string.Empty)
-            {
-                Calculate(obj);
-            }
+            //proses calculate
+            strResult = Calculate(obj);
 
             return strResult;
         }
-
-        public string Calculate(KRSHeaderDto obj)
+        public string Calculate(KrsHeaderDto obj)
         {
             string strResult = string.Empty;
 
-            try
+            KrsDetailDao dao = new KrsDetailDao();
+
+            if (string.IsNullOrEmpty(strResult))
             {
-                KRSDetailDao detailDao = new KRSDetailDao();
-                KRSDetailDto filter = new KRSDetailDto
+                decimal decTotal = 0;
+                obj.total_sks = 0;
+
+                List<KrsDetailDto> lst = dao.GetList(new KrsDetailDto()
                 {
                     nim = obj.nim,
-                    semester = obj.semester
-                };
-                List<KRSDetailDto> lstDetail = detailDao.GetList(filter);
-
-                decimal totalSks = 0;
-                foreach (KRSDetailDto detail in lstDetail)
+                    semester = obj.semester,
+                });
+                if (lst.Count > 0)
                 {
-                    totalSks += detail.sks;
+                    foreach (KrsDetailDto dto in lst)
+                    {
+                        decTotal += dto.sks;
+                    }
                 }
+                obj.total_sks = decTotal;
 
-                obj.total_sks = totalSks;
-                string strSql = "UPDATE KRSHeader SET total_sks = " + totalSks
-                              + " WHERE nim = '" + obj.nim.Trim() + "'"
-                              + " AND semester = '" + obj.semester.Trim() + "'";
-
-                strResult = this.ExecuteDbNonQuery(strSql);
+                strResult = ExecuteDbNonQuery(ScriptUpdate(obj));
             }
-            catch (Exception ex)
-            {
-                strResult = ex.Message;
-            }
-
             return strResult;
         }
 
@@ -139,16 +131,13 @@ namespace University.Dao.Training
 
         #region Delete Data
 
-        public string Delete(KRSHeaderDto obj)
+        public string Delete(KrsHeaderDto obj)
         {
-            KRSDetailDao detailDao = new KRSDetailDao();
-            detailDao.DeleteByNimSemester(obj.nim, obj.semester);
-
             List<string> lstCondition = new List<string>();
             lstCondition.Add("nim");
             lstCondition.Add("semester");
 
-            string strSql = this.GenerateStringDelete("KRSHeader", lstCondition, obj);
+            string strSql = this.GenerateStringDelete("krsheader", lstCondition, obj);
             return this.ExecuteDbNonQuery(strSql);
         }
 
@@ -156,15 +145,15 @@ namespace University.Dao.Training
 
         #region Select Data
 
-        public bool IsExists(KRSHeaderDto obj)
+        public bool IsExists(KrsHeaderDto obj)
         {
             string strSql = "SELECT CASE WHEN EXISTS"
                             + " ("
                             + " SELECT * "
-                            + " FROM KRSHeader "
+                            + " FROM krsheader "
                             + " WHERE 1=1 "
-                            + " AND nim = '" + obj.nim.Trim() + "'"
-                            + " AND semester = '" + obj.semester.Trim() + "'"
+                            + " AND nim   = '" + obj.nim.Trim() + "'"
+                            + " AND semester   = " + obj.semester + ""
                             + " )"
                             + " THEN 1 ELSE 0 END"
                             + "";
@@ -186,7 +175,7 @@ namespace University.Dao.Training
             return true;
         }
 
-        public KRSHeaderDto Get(KRSHeaderDto obj)
+        public KrsHeaderDto Get(KrsHeaderDto obj)
         {
             List<string> lstField = new List<string>();
             lstField.Add("nim");
@@ -199,112 +188,107 @@ namespace University.Dao.Training
             lstCondition.Add("nim");
             lstCondition.Add("semester");
 
-            string strSql = this.GenerateStringSelect("KRSHeader", lstCondition, lstField, obj);
-            KRSHeaderDto dto = this.ExecuteQueryOne(strSql);
+            string strSql = this.GenerateStringSelect("krsheader", lstCondition, lstField, obj);
+            KrsHeaderDto dto = this.ExecuteQueryOne(strSql);
             return dto;
         }
 
-        public List<KRSHeaderDto> GetList(KRSHeaderDto obj)
+        public KrsHeaderDto GetDataMahasiswa(KrsHeaderDto obj)
+        {
+            String strSql = "SELECT   B.NIM, "
+                             + "   A.Semester,  "
+                             + "   B.Kode_Fakultas AS kode_fakultas,  "
+                             + "   B.Kode_Jurusan as kode_jurusan,  "
+                             + "   A.Total_SKS AS total_sks "
+                             + " FROM  Mahasiswa B  "
+                             + "   LEFT JOIN krsheader A on 1 = 1  "
+                             + "   AND A.NIM = B.NIM  "
+                             + "   AND A.Semester = " + obj.semester + ""
+                             + " WHERE 1 = 1  ";
+
+            if (obj.nim != null && obj.nim != String.Empty)
+            {
+                strSql += " AND B.nim   = '" + obj.nim.Trim() + "'";
+            }
+
+            KrsHeaderDto dto = this.ExecuteQueryOne(strSql);
+            return dto;
+        }
+
+        public List<KrsHeaderDto> GetList(KrsHeaderDto obj)
         {
             string strSql = "SELECT "
-                            + " nim  "
-                            + ", semester  "
-                            + ", kode_fakultas  "
-                            + ", kode_jurusan  "
-                            + ", total_sks  "
-                            + " FROM KRSHeader WHERE 1=1 ";
+                        + "    nim  "
+                        + ",    semester  "
+                        + ",    kode_fakultas  "
+                        + ",    kode_jurusan  "
+                        + ",    total_sks  "
+                        + " FROM krsheader "
+                        + " WHERE 1=1 ";
 
-            if (!string.IsNullOrEmpty(obj.nim))
+            if (obj.nim != null && obj.nim != String.Empty)
             {
-                strSql += " AND nim = '" + obj.nim.Trim() + "' ";
+                strSql += " AND nim   = '" + obj.nim.Trim() + "'";
             }
 
-            if (!string.IsNullOrEmpty(obj.semester))
+            if (obj.semester > 0)
             {
-                strSql += " AND semester = '" + obj.semester.Trim() + "' ";
+                strSql += " AND semester = " + obj.semester + "";
             }
 
-            if (!string.IsNullOrEmpty(obj.kode_fakultas))
-            {
-                strSql += " AND kode_fakultas = '" + obj.kode_fakultas.Trim() + "' ";
-            }
-
-            if (!string.IsNullOrEmpty(obj.kode_jurusan))
-            {
-                strSql += " AND kode_jurusan = '" + obj.kode_jurusan.Trim() + "' ";
-            }
-
-            List<KRSHeaderDto> dto = this.ExecuteQuery(strSql);
+            List<KrsHeaderDto> dto = this.ExecuteQuery(strSql);
             return dto;
         }
 
-        public List<KRSHeaderDto> GetListPaging(KRSHeaderDto obj, int intPageNumber, int intPageSize, out int intTotalPage, out int intTotalRecord)
+        public List<KrsHeaderDto> GetListPaging(KrsHeaderDto obj, int intPageNumber, int intPageSize, out int intTotalPage, out int intTotalRecord)
         {
             string strSql = "SELECT "
-                            + " nim  "
-                            + ", semester  "
-                            + ", kode_fakultas  "
-                            + ", kode_jurusan  "
-                            + ", total_sks  "
-                            + " FROM KRSHeader WHERE 1=1 ";
+                        + "    nim  "
+                        + ",    semester  "
+                        + ",    kode_fakultas  "
+                        + ",    kode_jurusan  "
+                        + ",    total_sks  "
+                        + " FROM krsheader "
+                        + " WHERE 1=1 ";
 
-            if (!string.IsNullOrEmpty(obj.nim))
+            if (obj.nim != null && obj.nim != String.Empty)
             {
-                strSql += " AND nim = '" + obj.nim.Trim() + "' ";
+                strSql += " AND nim   = '" + obj.nim.Trim() + "'";
             }
 
-            if (!string.IsNullOrEmpty(obj.semester))
+            if (obj.semester > 0)
             {
-                strSql += " AND semester = '" + obj.semester.Trim() + "' ";
+                strSql += " AND semester = " + obj.semester + "";
             }
 
-            if (!string.IsNullOrEmpty(obj.kode_fakultas))
-            {
-                strSql += " AND kode_fakultas = '" + obj.kode_fakultas.Trim() + "' ";
-            }
-
-            if (!string.IsNullOrEmpty(obj.kode_jurusan))
-            {
-                strSql += " AND kode_jurusan = '" + obj.kode_jurusan.Trim() + "' ";
-            }
-
-            List<KRSHeaderDto> dto = this.ExecutePaging(strSql, "nim", intPageNumber, intPageSize, out intTotalPage, out intTotalRecord);
+            List<KrsHeaderDto> dto = this.ExecutePaging(strSql, "kode_KrsHeader", intPageNumber, intPageSize, out intTotalPage, out intTotalRecord);
             return dto;
         }
 
-        public List<KRSHeaderDto> GetReportKRS(KRSHeaderDto obj)
+        public DataTable GetDetailKrsHeader(KrsHeaderDto obj)
         {
-            string strSql = @"
-                SELECT 
-                    a.nim AS [nim]
-                    , a.semester AS [semester]
-                    , a.kode_fakultas AS [kode_fakultas]
-                    , d.nama_fakultas AS [nama_fakultas]
-                    , a.kode_jurusan AS [kode_jurusan]
-                    , e.nama_jurusan AS [nama_jurusan]
-                    , a.total_sks AS [total_sks]
-                FROM KRSHeader a
-                LEFT JOIN Fakultas d ON 1=1
-                    AND d.kode_fakultas = a.kode_fakultas
-                LEFT JOIN Jurusan e ON 1=1
-                    AND e.kode_fakultas = a.kode_fakultas
-                    AND e.kode_jurusan = a.kode_jurusan
-                WHERE 1=1 ";
+            string strSql = "SELECT "
+                            + "    nim  "
+                        + ",    semester  "
+                        + ",    kode_fakultas  "
+                        + ",    kode_jurusan  "
+                        + ",    total_sks  "
+                        + " FROM krsheader "
+                        + " WHERE 1=1 ";
 
-            if (!string.IsNullOrEmpty(obj.nim))
+            if (obj.nim != null && obj.nim != String.Empty)
             {
-                strSql += " AND a.nim = '" + obj.nim.Trim() + "' ";
+                strSql += " AND nim   = '" + obj.nim.Trim() + "'";
             }
 
-            if (!string.IsNullOrEmpty(obj.semester))
+            if (obj.semester > 0)
             {
-                strSql += " AND a.semester = '" + obj.semester.Trim() + "' ";
+                strSql += " AND semester = " + obj.semester + "";
             }
 
-            List<KRSHeaderDto> dto = this.ExecuteQuery(strSql);
+            DataTable dto = this.ExecuteDataTable(strSql);
             return dto;
         }
-
         #endregion
     }
 }

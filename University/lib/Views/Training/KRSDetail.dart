@@ -1,76 +1,62 @@
-import 'package:flutter/material.dart';
+
+import 'package:flutter/cupertino.dart';
+import 'package:university/Common/AppConfig.dart';
+import 'package:university/UserControls/Lookup.dart';
+
 import '../../Common/ModalBase.dart';
-import '../../Dao/Training/KRSHeaderDao.dart';
-import '../../Dto/Training/KRSDetailDto.dart';
-import '../../Dto/Training/KRSHeaderDto.dart';
+import '../../Dao/Training/KrsHeaderDao.dart';
+import '../../Dto/Training/KrsDetailDto.dart';
+import '../../Dto/Training/KrsHeaderDto.dart';
 import '../../UserControls/ButtonExtender.dart';
 import '../../UserControls/EditText.dart';
 import '../../UserControls/LabelText.dart';
 import '../../UserControls/MessageBox.dart';
 import '../../UserControls/ModalContent.dart';
-import '../../UserControls/SearchBox.dart';
 
-class KRSDetail extends StatefulWidget {
-  static const String route = "/Training/KRSDetail";
+class KrsDetail extends StatefulWidget {
+  static const String route = "/Training/KrsDetail";
 
-  final KRSHeaderDto KRSHeader;
-  final Function(KRSDetailDto obj)? callback;
+  final KrsHeaderDto objKrsHeader;
+  final Function(KrsDetailDto obj)? callback;
 
-  KRSDetail({
-    required this.KRSHeader,
+  KrsDetail({
+    required this.objKrsHeader,
     this.callback,
   });
 
   @override
-  createState() => KRSDetailState();
+  createState() => KrsDetailState();
 }
 
-class KRSDetailState extends ModalBase<KRSDetail> {
+class KrsDetailState extends ModalBase<KrsDetail>  {
   //region Variables
   final form1 = GlobalKey<FormState>();
   ValueNotifier<bool> showModalProgress = ValueNotifier<bool>(false);
-  SearchBoxController scbMatakuliah = SearchBoxController();
-  EditTextController edtSKS = EditTextController();
-
-  //endregion
+  var lupKode_Matakuliah = LookupController();
+  var edtSKS = EditTextController();
+  KrsHeaderDto dtoHeader = KrsHeaderDto();
 
   //region init
   @override
   void appInit(ModalPlatform modalPlatform) {
-    scbMatakuliah.filter =
-        "kode_fakultas = '${widget.KRSHeader.kode_fakultas}' AND kode_jurusan = '${widget.KRSHeader.kode_jurusan}'";
+    dtoHeader = widget.objKrsHeader;
+    modalBehaviour(ModalMode.Add);
   }
   //endregion
 
   //region events
-  void scbMatakuliah_onChanged(Map<String, dynamic> item) {
-    edtSKS.numericValue = double.tryParse(item["SKS"]?.toString() ?? "0") ?? 0;
-  }
-
   void btnOK_Click() async {
+    String strResult = "";
+
     if (form1.currentState!.validate()) {
-      String strResult = "";
       showModalProgress.value = true;
 
+
+      dtoHeader.objKrsDetail = collectionInfo();
+
       try {
-        KRSDetailDto objDetail = collectionInfo();
-
-        KRSHeaderDto dto = KRSHeaderDto();
-        dto.nim = widget.KRSHeader.nim;
-        dto.semester = widget.KRSHeader.semester;
-        dto.kode_fakultas = widget.KRSHeader.kode_fakultas;
-        dto.kode_jurusan = widget.KRSHeader.kode_jurusan;
-        dto.objLine = objDetail;
-
-        double currentTotal =
-            (widget.KRSHeader.total_sks + objDetail.sks).toDouble();
-        if (currentTotal > 24) {
-          strResult =
-              "Maaf, SKS matakuliah yang di pilih melebihi maksimum SKS pada semester ini!";
-        } else {
-          KRSHeaderDao dao = KRSHeaderDao();
-          strResult = await dao.Save(dto);
-        }
+        KrsHeaderDao dao = KrsHeaderDao();
+        strResult = await dao.Save(dtoHeader);
       } catch (ex) {
         strResult = ex.toString();
       }
@@ -78,21 +64,16 @@ class KRSDetailState extends ModalBase<KRSDetail> {
       showModalProgress.value = false;
 
       if (strResult.isEmpty) {
-        await MessageBox.show(
-          context: context,
-          message: "Simpan berhasil",
-          title: "Simpan Sukses",
-          dialogButton: DialogButton.OK,
-        );
-
+        await MessageBox.show(context: context,
+            message: "Save successfully",
+            title: "Save Success",
+            dialogButton: DialogButton.OK);
         closeModalPopup(DialogResult.OK);
       } else {
-        await MessageBox.show(
-          context: context,
-          message: strResult,
-          title: "Simpan Gagal",
-          dialogButton: DialogButton.OK,
-        );
+        await MessageBox.show(context: context,
+            message: strResult,
+            title: "Save Failed",
+            dialogButton: DialogButton.OK);
       }
     }
   }
@@ -103,11 +84,13 @@ class KRSDetailState extends ModalBase<KRSDetail> {
   //endregion
 
   //region Methods
-  KRSDetailDto collectionInfo() {
-    KRSDetailDto objInfo = KRSDetailDto();
-    objInfo.nim = widget.KRSHeader.nim;
-    objInfo.semester = widget.KRSHeader.semester;
-    objInfo.kode_matakuliah = scbMatakuliah.text;
+
+  KrsDetailDto collectionInfo() {
+    KrsDetailDto objInfo = KrsDetailDto();
+    objInfo.nim = dtoHeader.nim;
+    objInfo.semester = dtoHeader.semester;
+    objInfo.line_no = 0;
+    objInfo.kode_matakuliah = lupKode_Matakuliah.text.trim();
     objInfo.sks = edtSKS.numericValue;
     return objInfo;
   }
@@ -118,93 +101,87 @@ class KRSDetailState extends ModalBase<KRSDetail> {
       case ModalMode.Add:
         {
           setState(() {
-            scbMatakuliah.isEnable = true;
-            edtSKS.isEnable = false;
+            lupKode_Matakuliah.filter = "kode_jurusan = '" + dtoHeader.kode_jurusan  + "'";
           });
           break;
         }
       case ModalMode.Edit:
         {
-          setState(() {
-            scbMatakuliah.isEnable = false;
-            edtSKS.isEnable = false;
-          });
           break;
         }
       case ModalMode.View:
         {
-          setState(() {
-            scbMatakuliah.isEnable = false;
-            edtSKS.isEnable = false;
-          });
           break;
         }
     }
   }
-  //endregion
 
   //region Layout
   @override
   Widget build(BuildContext context) {
     return ModalContent(
-      formKey: form1,
-      showModalProgress: showModalProgress,
-      builder: (context, constraint) {
-        return Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Row(
+        formKey: form1,
+        showModalProgress: showModalProgress,
+        builder: (context, constraint) {
+          return Column(
               crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                const LabelText(
-                  labelText: "Mata Kuliah",
-                  isMandatory: true,
-                ),
-                SearchBoxFormField(
-                  controller: scbMatakuliah,
-                  entity: "MTKL-02",
-                  title: "List of Mata Kuliah",
-                  isMandatory: true,
-                  onLostFocus: scbMatakuliah_onChanged,
-                ),
-              ],
-            ),
-            Row(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                const LabelText(
-                  labelText: "SKS",
-                ),
-                EditText(
-                  controller: edtSKS,
-                  textMode: TextInputType.number,
-                  maxLength: 3,
-                ),
-              ],
-            ),
-            const SizedBox(height: 20),
-            Row(
-              crossAxisAlignment: CrossAxisAlignment.end,
               mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                ButtonExtender(
-                  buttonText: "OK",
-                  onPressed: btnOK_Click,
+              children: <Widget>[
+                Row(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    const LabelText(
+                      labelText: "Mata Kuliah",
+                      width: 150,
+                      isMandatory: true,
+                    ),
+                    Lookup(
+                      controller: lupKode_Matakuliah,
+                      isMandatory: true,
+                      entity: "MTKL-02",
+                      onLostFocus: (item) {
+                        setState(() {
+                          edtSKS.numericValue = item["SKS"];
+                        });
+                      },
+
+                    ),
+                  ],
                 ),
-                Container(
-                  margin: const EdgeInsets.only(left: 10),
-                  child: ButtonExtender(
-                    buttonText: "Cancel",
-                    onPressed: btnCancel_Click,
-                  ),
+                Row(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    const LabelText(
+                      labelText: "SKS",
+                      width: 150,
+                    ),
+                    EditText(
+                      controller: edtSKS,
+                      textMode: TextInputType.number,
+                      numericType: NumericType.Unit,
+                      isEnable: false,
+                    ),
+                  ],
                 ),
-              ],
-            ),
-          ],
-        );
-      },
+                Row(
+                  crossAxisAlignment: CrossAxisAlignment.end,
+                  children: [
+                    ButtonExtender(
+                      buttonText: "OK",
+                      onPressed: btnOK_Click,
+                    ),
+                    Container(
+                      margin: const EdgeInsets.only(left: 10),
+                      child: ButtonExtender(
+                        buttonText: "Cancel",
+                        onPressed: btnCancel_Click,
+                      ),
+                    ),
+                  ],
+                ),
+              ]
+          );
+        }
     );
   }
-//endregion
 }
